@@ -17,6 +17,7 @@ require (
 	github.com/gobuffalo/packd v1.0.0 // indirect
 	github.com/gobuffalo/packr/v2 v2.7.1
 	github.com/gobuffalo/pop v4.13.1+incompatible
+	github.com/gobuffalo/suite v2.8.2+incompatible
 	github.com/gobuffalo/validate v2.0.4+incompatible // indirect
 	github.com/jackc/pgconn v1.3.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
