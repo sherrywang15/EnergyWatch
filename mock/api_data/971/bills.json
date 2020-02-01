@@ -1,0 +1,3884 @@
+{
+    "bills": [
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2020-01-04T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-12-08T00:00:00.000000-08:00", 
+                "bill_statement_date": "2020-01-10T00:00:00.000000-08:00", 
+                "bill_total_cost": 64.58, 
+                "bill_total_kwh": 401.251686, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 401.251686, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 60.0, 
+                    "end": "2019-12-08T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.22981, 
+                    "start": "2019-12-08T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 261.101657
+                }, 
+                {
+                    "cost": 24.6, 
+                    "end": "2019-12-08T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.2892, 
+                    "start": "2019-12-08T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 85.054901
+                }, 
+                {
+                    "cost": -29.86, 
+                    "end": "2019-12-08T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-12-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -40.67, 
+                    "end": "2019-12-08T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-12-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 9.28, 
+                    "end": "2019-12-08T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-12-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.24, 
+                    "end": "2019-12-08T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-12-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.12, 
+                    "end": "2019-12-08T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-12-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 10.34, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.23581, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 43.848218
+                }, 
+                {
+                    "cost": 4.23, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.29675, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 14.244568
+                }, 
+                {
+                    "cost": -5.24, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -6.8, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.57, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.04, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.19, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 33.73, 
+                    "end": "2019-12-08T08:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.08519, 
+                    "start": "2019-12-08T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 395.893248
+                }, 
+                {
+                    "cost": 1.69, 
+                    "end": "2019-12-08T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-12-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.12, 
+                    "end": "2019-12-08T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-12-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 34.53, 
+                            "end": "2019-12-08T08:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.08519, 
+                            "start": "2019-12-08T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 403.56597149805265
+                        }, 
+                        {
+                            "cost": 1.74, 
+                            "end": "2019-12-08T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-12-08T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.13, 
+                            "end": "2019-12-08T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-12-08T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 35.82, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 404.5917505862289, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3627, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2019-11-06T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-10-09T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-11-14T00:00:00.000000-08:00", 
+                "bill_total_cost": 34.36, 
+                "bill_total_kwh": 229.388931, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 229.388931, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 53.51, 
+                    "end": "2019-10-09T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.22981, 
+                    "start": "2019-10-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 232.848249
+                }, 
+                {
+                    "cost": -19.46, 
+                    "end": "2019-10-09T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-10-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -27.71, 
+                    "end": "2019-10-09T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-10-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 6.28, 
+                    "end": "2019-10-09T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-10-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.16, 
+                    "end": "2019-10-09T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-10-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.66, 
+                    "end": "2019-10-09T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-10-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 19.86, 
+                    "end": "2019-10-09T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.08519, 
+                    "start": "2019-10-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 233.101226
+                }, 
+                {
+                    "cost": 0.99, 
+                    "end": "2019-10-09T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-10-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.07, 
+                    "end": "2019-10-09T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-10-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 19.43, 
+                            "end": "2019-10-09T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.08519, 
+                            "start": "2019-10-09T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 227.28168362207666
+                        }, 
+                        {
+                            "cost": 0.96, 
+                            "end": "2019-10-09T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-10-09T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.07, 
+                            "end": "2019-10-09T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-10-09T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 21.56, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 227.46972931482478, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3625, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2019-10-08T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-09-10T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-10-15T00:00:00.000000-07:00", 
+                "bill_total_cost": 37.82, 
+                "bill_total_kwh": 274.646412, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 274.646412, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 41.58, 
+                    "end": "2019-09-10T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.22376, 
+                    "start": "2019-09-10T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 185.830225
+                }, 
+                {
+                    "cost": -14.73, 
+                    "end": "2019-09-10T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-09-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -21.76, 
+                    "end": "2019-09-10T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-09-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 4.94, 
+                    "end": "2019-09-10T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-09-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.12, 
+                    "end": "2019-09-10T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-09-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.49, 
+                    "end": "2019-09-10T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-09-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 16.19, 
+                    "end": "2019-10-01T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.22981, 
+                    "start": "2019-10-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 70.465055
+                }, 
+                {
+                    "cost": -5.79, 
+                    "end": "2019-10-01T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-10-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -8.26, 
+                    "end": "2019-10-01T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-10-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.92, 
+                    "end": "2019-10-01T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-10-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.05, 
+                    "end": "2019-10-01T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-10-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.2, 
+                    "end": "2019-10-01T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-10-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 21.71, 
+                    "end": "2019-09-10T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.08519, 
+                    "start": "2019-09-10T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 254.791432
+                }, 
+                {
+                    "cost": 1.08, 
+                    "end": "2019-09-10T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-09-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.08, 
+                    "end": "2019-09-10T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-09-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 21.54, 
+                            "end": "2019-09-10T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.08519, 
+                            "start": "2019-09-10T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 263.2257655387692
+                        }, 
+                        {
+                            "cost": 1.09, 
+                            "end": "2019-09-10T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-09-10T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.08, 
+                            "end": "2019-09-10T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-09-10T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 23.32, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 252.9195653777266, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3624, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2019-08-08T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-07-10T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-08-15T00:00:00.000000-07:00", 
+                "bill_total_cost": 38.99, 
+                "bill_total_kwh": 283.137001, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 283.137001, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 63.7, 
+                    "end": "2019-07-10T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.22376, 
+                    "start": "2019-07-10T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 284.679985
+                }, 
+                {
+                    "cost": -22.28, 
+                    "end": "2019-07-10T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-07-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -33.49, 
+                    "end": "2019-07-10T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-07-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 7.73, 
+                    "end": "2019-07-10T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-07-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.18, 
+                    "end": "2019-07-10T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-07-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.75, 
+                    "end": "2019-07-10T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-07-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 14.84, 
+                    "end": "2019-07-10T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.07121, 
+                    "start": "2019-07-10T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 208.391731
+                }, 
+                {
+                    "cost": 6.41, 
+                    "end": "2019-07-10T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.08519, 
+                    "start": "2019-07-10T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 75.236806
+                }, 
+                {
+                    "cost": 1.07, 
+                    "end": "2019-07-10T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-07-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.08, 
+                    "end": "2019-07-10T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-07-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 14.53, 
+                            "end": "2019-07-10T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.07121, 
+                            "start": "2019-07-10T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 210.93108042017658
+                        }, 
+                        {
+                            "cost": 6.25, 
+                            "end": "2019-07-10T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.08519, 
+                            "start": "2019-07-10T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 76.44517313549112
+                        }, 
+                        {
+                            "cost": 1.07, 
+                            "end": "2019-07-10T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-07-10T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.08, 
+                            "end": "2019-07-10T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-07-10T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 23.51, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 277.4145322040205, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3622, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2019-06-07T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-05-09T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-06-13T00:00:00.000000-07:00", 
+                "bill_total_cost": 30.78, 
+                "bill_total_kwh": 211.518407, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 211.518407, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 48.14, 
+                    "end": "2019-05-09T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.22281, 
+                    "start": "2019-05-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 216.059816
+                }, 
+                {
+                    "cost": -17.53, 
+                    "end": "2019-05-09T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-05-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -24.3, 
+                    "end": "2019-05-09T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-05-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 7.39, 
+                    "end": "2019-05-09T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-05-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.12, 
+                    "end": "2019-05-09T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-05-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.68, 
+                    "end": "2019-05-09T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-05-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 15.44, 
+                    "end": "2019-05-09T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.07121, 
+                    "start": "2019-05-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 216.825594
+                }, 
+                {
+                    "cost": 0.78, 
+                    "end": "2019-05-09T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-05-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2019-05-09T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-05-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 15.77, 
+                            "end": "2019-05-09T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.07121, 
+                            "start": "2019-05-09T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 219.40948419964707
+                        }, 
+                        {
+                            "cost": 0.76, 
+                            "end": "2019-05-09T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-05-09T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.06, 
+                            "end": "2019-05-09T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-05-09T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 15.86, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 218.7651604049444, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3620, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2019-05-08T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-04-09T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-05-15T00:00:00.000000-07:00", 
+                "bill_total_cost": 28.77, 
+                "bill_total_kwh": 219.694446, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 219.694446, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 34.03, 
+                    "end": "2019-04-09T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21775, 
+                    "start": "2019-04-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 156.276729
+                }, 
+                {
+                    "cost": -12.24, 
+                    "end": "2019-04-09T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-04-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -17.62, 
+                    "end": "2019-04-09T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-04-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 5.33, 
+                    "end": "2019-04-09T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-04-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.09, 
+                    "end": "2019-04-09T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-04-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.48, 
+                    "end": "2019-04-09T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-04-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 12.37, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.22281, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 55.526023
+                }, 
+                {
+                    "cost": -4.64, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -6.29, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.95, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.03, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.18, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 10.33, 
+                    "end": "2019-04-09T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.06732, 
+                    "start": "2019-04-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 153.496005
+                }, 
+                {
+                    "cost": 3.98, 
+                    "end": "2019-04-09T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.07121, 
+                    "start": "2019-04-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 55.951372
+                }, 
+                {
+                    "cost": 0.73, 
+                    "end": "2019-04-09T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-04-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2019-04-09T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-04-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 10.49, 
+                            "end": "2019-04-09T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.06732, 
+                            "start": "2019-04-09T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 159.92060958355415
+                        }, 
+                        {
+                            "cost": 4.02, 
+                            "end": "2019-04-09T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.07121, 
+                            "start": "2019-04-09T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 57.167073916603826
+                        }, 
+                        {
+                            "cost": 0.74, 
+                            "end": "2019-04-09T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-04-09T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.06, 
+                            "end": "2019-04-09T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-04-09T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 15.41, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 219.27738733801874, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3618, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2019-04-08T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-03-09T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-04-15T00:00:00.000000-07:00", 
+                "bill_total_cost": 39.94, 
+                "bill_total_kwh": 291.349459, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 291.349459, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 63.05, 
+                    "end": "2019-03-09T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21775, 
+                    "start": "2019-03-09T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 289.548847
+                }, 
+                {
+                    "cost": -21.84, 
+                    "end": "2019-03-09T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-03-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -32.3, 
+                    "end": "2019-03-09T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-03-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 9.38, 
+                    "end": "2019-03-09T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-03-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.16, 
+                    "end": "2019-03-09T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-03-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.88, 
+                    "end": "2019-03-09T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-03-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 19.57, 
+                    "end": "2019-03-09T08:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.06732, 
+                    "start": "2019-03-09T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 290.715501
+                }, 
+                {
+                    "cost": 0.96, 
+                    "end": "2019-03-09T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-03-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.08, 
+                    "end": "2019-03-09T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-03-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 19.58, 
+                            "end": "2019-03-09T08:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.06732, 
+                            "start": "2019-03-09T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 282.74674332270615
+                        }, 
+                        {
+                            "cost": 0.98, 
+                            "end": "2019-03-09T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-03-09T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.08, 
+                            "end": "2019-03-09T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-03-09T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 19.92, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 306.22999385947537, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3616, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2019-03-08T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-02-07T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-03-14T00:00:00.000000-07:00", 
+                "bill_total_cost": 71.51, 
+                "bill_total_kwh": 503.596628, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 503.596628, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 52.26, 
+                    "end": "2019-02-07T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21183, 
+                    "start": "2019-02-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 246.705521
+                }, 
+                {
+                    "cost": 31.84, 
+                    "end": "2019-02-07T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.28011, 
+                    "start": "2019-02-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 113.680319
+                }, 
+                {
+                    "cost": -30.47, 
+                    "end": "2019-02-07T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-02-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -39.2, 
+                    "end": "2019-02-07T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-02-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 11.65, 
+                    "end": "2019-02-07T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-02-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.2, 
+                    "end": "2019-02-07T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-02-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.31, 
+                    "end": "2019-02-07T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-02-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 19.47, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21775, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 89.397725
+                }, 
+                {
+                    "cost": 11.3, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.27402, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 41.244449
+                }, 
+                {
+                    "cost": -10.9, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -14.51, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 4.28, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.07, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.48, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 31.97, 
+                    "end": "2019-02-07T08:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.06732, 
+                    "start": "2019-02-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 474.86913
+                }, 
+                {
+                    "cost": 1.61, 
+                    "end": "2019-02-07T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-02-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.15, 
+                    "end": "2019-02-07T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-02-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 32.77, 
+                            "end": "2019-02-07T08:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.06732, 
+                            "start": "2019-02-07T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 477.47573916746904
+                        }, 
+                        {
+                            "cost": 1.63, 
+                            "end": "2019-02-07T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-02-07T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.15, 
+                            "end": "2019-02-07T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-02-07T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 36.58, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 494.55574674270116, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3615, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2019-02-06T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-01-08T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-02-13T00:00:00.000000-08:00", 
+                "bill_total_cost": 61.78, 
+                "bill_total_kwh": 412.530058, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 412.530058, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 70.33, 
+                    "end": "2019-01-08T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21183, 
+                    "start": "2019-01-08T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 331.992277
+                }, 
+                {
+                    "cost": 26.74, 
+                    "end": "2019-01-08T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.28011, 
+                    "start": "2019-01-08T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 95.457516
+                }, 
+                {
+                    "cost": -34.69, 
+                    "end": "2019-01-08T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-01-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -46.0, 
+                    "end": "2019-01-08T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-01-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 14.18, 
+                    "end": "2019-01-08T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-01-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.23, 
+                    "end": "2019-01-08T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-01-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.45, 
+                    "end": "2019-01-08T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-01-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 27.97, 
+                    "end": "2019-01-08T08:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.06732, 
+                    "start": "2019-01-08T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 415.491996
+                }, 
+                {
+                    "cost": 1.45, 
+                    "end": "2019-01-08T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-01-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.12, 
+                    "end": "2019-01-08T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-01-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 29.08, 
+                            "end": "2019-01-08T08:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.06732, 
+                            "start": "2019-01-08T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 423.653807651423
+                        }, 
+                        {
+                            "cost": 1.44, 
+                            "end": "2019-01-08T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-01-08T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.12, 
+                            "end": "2019-01-08T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-01-08T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 29.9, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 430.40767394274786, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3613, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2019-01-07T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-12-07T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-01-14T00:00:00.000000-08:00", 
+                "bill_total_cost": 81.17, 
+                "bill_total_kwh": 550.339649, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 550.339649, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 60.59, 
+                    "end": "2018-12-07T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21536, 
+                    "start": "2018-12-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 281.326929
+                }, 
+                {
+                    "cost": 39.47, 
+                    "end": "2018-12-07T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.28478, 
+                    "start": "2018-12-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 138.611855
+                }, 
+                {
+                    "cost": -36.33, 
+                    "end": "2018-12-07T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -44.59, 
+                    "end": "2018-12-07T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 14.12, 
+                    "end": "2018-12-07T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.22, 
+                    "end": "2018-12-07T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.58, 
+                    "end": "2018-12-07T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 15.92, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21183, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 75.163719
+                }, 
+                {
+                    "cost": 11.13, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.28011, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 39.742523
+                }, 
+                {
+                    "cost": -10.13, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -12.69, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 3.95, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.45, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 35.42, 
+                    "end": "2018-12-07T08:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.06732, 
+                    "start": "2018-12-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 526.12105
+                }, 
+                {
+                    "cost": 1.83, 
+                    "end": "2018-12-07T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.17, 
+                    "end": "2018-12-07T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 36.69, 
+                            "end": "2018-12-07T08:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.06732, 
+                            "start": "2018-12-07T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 531.8825049600244
+                        }, 
+                        {
+                            "cost": 1.8, 
+                            "end": "2018-12-07T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-12-07T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.16, 
+                            "end": "2018-12-07T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-12-07T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 40.67, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 561.724488593171, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3611, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2018-12-06T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-11-07T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-12-13T00:00:00.000000-08:00", 
+                "bill_total_cost": 53.2, 
+                "bill_total_kwh": 366.876232, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 366.876232, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 73.42, 
+                    "end": "2018-11-07T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21536, 
+                    "start": "2018-11-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 340.915034
+                }, 
+                {
+                    "cost": 8.57, 
+                    "end": "2018-11-07T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.28478, 
+                    "start": "2018-11-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 30.104976
+                }, 
+                {
+                    "cost": -29.12, 
+                    "end": "2018-11-07T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-11-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -38.59, 
+                    "end": "2018-11-07T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-11-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 12.1, 
+                    "end": "2018-11-07T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-11-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.21, 
+                    "end": "2018-11-07T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-11-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.19, 
+                    "end": "2018-11-07T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-11-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 24.11, 
+                    "end": "2018-11-07T08:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.06732, 
+                    "start": "2018-11-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 358.117274
+                }, 
+                {
+                    "cost": 1.21, 
+                    "end": "2018-11-07T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-11-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.1, 
+                    "end": "2018-11-07T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-11-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 24.32, 
+                            "end": "2018-11-07T08:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.06732, 
+                            "start": "2018-11-07T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 365.8993188154987
+                        }, 
+                        {
+                            "cost": 1.24, 
+                            "end": "2018-11-07T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-11-07T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.1, 
+                            "end": "2018-11-07T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-11-07T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 26.56, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 359.7824040255572, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3609, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2018-10-05T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-09-07T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-10-11T00:00:00.000000-07:00", 
+                "bill_total_cost": 31.2, 
+                "bill_total_kwh": 223.4406, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 223.4406, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 48.13, 
+                    "end": "2018-09-07T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21536, 
+                    "start": "2018-09-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 223.47779
+                }, 
+                {
+                    "cost": -17.15, 
+                    "end": "2018-09-07T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-09-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -23.43, 
+                    "end": "2018-09-07T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-09-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 7.38, 
+                    "end": "2018-09-07T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-09-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.12, 
+                    "end": "2018-09-07T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-09-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.69, 
+                    "end": "2018-09-07T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-09-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 14.66, 
+                    "end": "2018-09-07T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.06732, 
+                    "start": "2018-09-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 217.835683
+                }, 
+                {
+                    "cost": 0.74, 
+                    "end": "2018-09-07T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-09-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2018-09-07T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-09-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 15.2, 
+                            "end": "2018-09-07T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.06732, 
+                            "start": "2018-09-07T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 220.98428125181033
+                        }, 
+                        {
+                            "cost": 0.76, 
+                            "end": "2018-09-07T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-09-07T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.06, 
+                            "end": "2018-09-07T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-09-07T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 16.75, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 234.44626689502005, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3607, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2018-09-06T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-08-07T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-09-13T00:00:00.000000-07:00", 
+                "bill_total_cost": 34.13, 
+                "bill_total_kwh": 265.466463, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 265.466463, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 43.54, 
+                    "end": "2018-08-07T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21169, 
+                    "start": "2018-08-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 205.681833
+                }, 
+                {
+                    "cost": -15.73, 
+                    "end": "2018-08-07T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-08-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -22.3, 
+                    "end": "2018-08-07T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-08-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 6.77, 
+                    "end": "2018-08-07T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-08-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.11, 
+                    "end": "2018-08-07T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-08-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.62, 
+                    "end": "2018-08-07T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-08-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 10.61, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21536, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 49.256594
+                }, 
+                {
+                    "cost": -3.94, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -5.42, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.64, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.03, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.15, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 17.12, 
+                    "end": "2018-08-07T07:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06732, 
+                    "start": "2018-08-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 254.370445
+                }, 
+                {
+                    "cost": 0.86, 
+                    "end": "2018-08-07T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-08-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.07, 
+                    "end": "2018-08-07T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-08-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 17.37, 
+                            "end": "2018-08-07T07:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06732, 
+                            "start": "2018-08-07T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 254.14292330256
+                        }, 
+                        {
+                            "cost": 0.84, 
+                            "end": "2018-08-07T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-08-07T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.07, 
+                            "end": "2018-08-07T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-08-07T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 19.21, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 267.1396648425072, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3605, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2018-08-06T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-07-07T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-08-13T00:00:00.000000-07:00", 
+                "bill_total_cost": 33.99, 
+                "bill_total_kwh": 250.579724, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 250.579724, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 53.31, 
+                    "end": "2018-07-07T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21169, 
+                    "start": "2018-07-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 251.820656
+                }, 
+                {
+                    "cost": -19.14, 
+                    "end": "2018-07-07T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-07-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -26.85, 
+                    "end": "2018-07-07T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-07-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 8.25, 
+                    "end": "2018-07-07T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-07-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.13, 
+                    "end": "2018-07-07T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-07-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.74, 
+                    "end": "2018-07-07T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-07-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 16.64, 
+                    "end": "2018-07-07T07:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06732, 
+                    "start": "2018-07-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 247.231708
+                }, 
+                {
+                    "cost": 0.84, 
+                    "end": "2018-07-07T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-07-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.07, 
+                    "end": "2018-07-07T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-07-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 17.18, 
+                            "end": "2018-07-07T07:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06732, 
+                            "start": "2018-07-07T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 251.4355566089273
+                        }, 
+                        {
+                            "cost": 0.84, 
+                            "end": "2018-07-07T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-07-07T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.07, 
+                            "end": "2018-07-07T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-07-07T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 18.75, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 256.22975895802256, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3604, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2018-07-06T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-06-07T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-07-12T00:00:00.000000-07:00", 
+                "bill_total_cost": 28.64, 
+                "bill_total_kwh": 213.376701, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 213.376701, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 44.49, 
+                    "end": "2018-06-07T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21169, 
+                    "start": "2018-06-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 210.150642
+                }, 
+                {
+                    "cost": -15.67, 
+                    "end": "2018-06-07T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-06-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -22.65, 
+                    "end": "2018-06-07T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-06-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 7.0, 
+                    "end": "2018-06-07T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-06-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.12, 
+                    "end": "2018-06-07T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-06-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.63, 
+                    "end": "2018-06-07T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-06-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 13.95, 
+                    "end": "2018-06-07T07:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06732, 
+                    "start": "2018-06-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 207.21961
+                }, 
+                {
+                    "cost": 0.71, 
+                    "end": "2018-06-07T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-06-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2018-06-07T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-06-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 14.09, 
+                            "end": "2018-06-07T07:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06732, 
+                            "start": "2018-06-07T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 209.70548399713064
+                        }, 
+                        {
+                            "cost": 0.69, 
+                            "end": "2018-06-07T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-06-07T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.06, 
+                            "end": "2018-06-07T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-06-07T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 14.52, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 207.55059516321907, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3602, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2018-06-06T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-05-08T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-06-13T00:00:00.000000-07:00", 
+                "bill_total_cost": 28.73, 
+                "bill_total_kwh": 213.029863, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 213.029863, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 45.46, 
+                    "end": "2018-05-08T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21169, 
+                    "start": "2018-05-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 214.735198
+                }, 
+                {
+                    "cost": -15.94, 
+                    "end": "2018-05-08T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-05-08T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -22.99, 
+                    "end": "2018-05-08T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-05-08T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 6.88, 
+                    "end": "2018-05-08T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-05-08T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.11, 
+                    "end": "2018-05-08T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-05-08T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.63, 
+                    "end": "2018-05-08T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-05-08T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 13.83, 
+                    "end": "2018-05-08T07:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06732, 
+                    "start": "2018-05-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 205.41847
+                }, 
+                {
+                    "cost": 0.69, 
+                    "end": "2018-05-08T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-05-08T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2018-05-08T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-05-08T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 13.86, 
+                            "end": "2018-05-08T07:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06732, 
+                            "start": "2018-05-08T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 214.83117452658502
+                        }, 
+                        {
+                            "cost": 0.7, 
+                            "end": "2018-05-08T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-05-08T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.06, 
+                            "end": "2018-05-08T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-05-08T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 15.7, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 209.47210532462609, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3600, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2018-05-07T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-04-06T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-05-14T00:00:00.000000-07:00", 
+                "bill_total_cost": 30.75, 
+                "bill_total_kwh": 233.777086, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 233.777086, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 37.26, 
+                    "end": "2018-04-06T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21169, 
+                    "start": "2018-04-06T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 175.990309
+                }, 
+                {
+                    "cost": -13.61, 
+                    "end": "2018-04-06T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-04-06T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -18.44, 
+                    "end": "2018-04-06T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-04-06T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 5.86, 
+                    "end": "2018-04-06T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-04-06T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.09, 
+                    "end": "2018-04-06T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-04-06T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.52, 
+                    "end": "2018-04-06T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-04-06T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 10.49, 
+                    "end": "2018-05-01T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21169, 
+                    "start": "2018-05-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 49.538136
+                }, 
+                {
+                    "cost": -3.67, 
+                    "end": "2018-05-01T07:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -5.26, 
+                    "end": "2018-05-01T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.59, 
+                    "end": "2018-05-01T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.03, 
+                    "end": "2018-05-01T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.14, 
+                    "end": "2018-05-01T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 14.94, 
+                    "end": "2018-04-06T07:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06732, 
+                    "start": "2018-04-06T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 221.94845
+                }, 
+                {
+                    "cost": 0.75, 
+                    "end": "2018-04-06T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-04-06T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2018-04-06T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-04-06T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 15.19, 
+                            "end": "2018-04-06T07:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06732, 
+                            "start": "2018-04-06T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 221.13031344610988
+                        }, 
+                        {
+                            "cost": 0.74, 
+                            "end": "2018-04-06T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-04-06T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.06, 
+                            "end": "2018-04-06T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-04-06T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 16.7, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 226.9953308141743, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3599, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2018-03-07T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-02-06T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-03-14T00:00:00.000000-07:00", 
+                "bill_total_cost": 74.8, 
+                "bill_total_kwh": 533.503754, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 533.503754, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 51.39, 
+                    "end": "2018-02-06T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.20078, 
+                    "start": "2018-02-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 255.95094
+                }, 
+                {
+                    "cost": 37.26, 
+                    "end": "2018-02-06T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.27748, 
+                    "start": "2018-02-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 134.288548
+                }, 
+                {
+                    "cost": -33.35, 
+                    "end": "2018-02-06T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-02-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -39.12, 
+                    "end": "2018-02-06T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-02-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 11.31, 
+                    "end": "2018-02-06T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-02-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.2, 
+                    "end": "2018-02-06T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-02-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.45, 
+                    "end": "2018-02-06T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-02-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 16.46, 
+                    "end": "2018-03-01T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21169, 
+                    "start": "2018-03-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 77.774582
+                }, 
+                {
+                    "cost": 11.35, 
+                    "end": "2018-03-01T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.27993, 
+                    "start": "2018-03-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 40.547183
+                }, 
+                {
+                    "cost": -10.01, 
+                    "end": "2018-03-01T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -12.63, 
+                    "end": "2018-03-01T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 4.06, 
+                    "end": "2018-03-01T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2018-03-01T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.45, 
+                    "end": "2018-03-01T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 34.08, 
+                    "end": "2018-02-06T08:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06763, 
+                    "start": "2018-02-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 503.935237
+                }, 
+                {
+                    "cost": 1.7, 
+                    "end": "2018-02-06T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-02-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.14, 
+                    "end": "2018-02-06T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-02-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 35.2, 
+                            "end": "2018-02-06T08:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06763, 
+                            "start": "2018-02-06T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 505.58206979927473
+                        }, 
+                        {
+                            "cost": 1.74, 
+                            "end": "2018-02-06T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-02-06T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.15, 
+                            "end": "2018-02-06T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-02-06T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 36.22, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 519.3224207649921, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3597, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2018-02-05T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-01-06T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-02-12T00:00:00.000000-08:00", 
+                "bill_total_cost": 79.26, 
+                "bill_total_kwh": 534.534318, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 534.534318, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 70.25, 
+                    "end": "2018-01-06T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.20078, 
+                    "start": "2018-01-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 349.8812
+                }, 
+                {
+                    "cost": 50.77, 
+                    "end": "2018-01-06T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.27748, 
+                    "start": "2018-01-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 182.970953
+                }, 
+                {
+                    "cost": -43.75, 
+                    "end": "2018-01-06T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-01-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -52.53, 
+                    "end": "2018-01-06T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-01-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 15.11, 
+                    "end": "2018-01-06T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-01-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.26, 
+                    "end": "2018-01-06T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-01-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.98, 
+                    "end": "2018-01-06T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-01-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 35.25, 
+                    "end": "2018-01-06T08:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06763, 
+                    "start": "2018-01-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 521.225204
+                }, 
+                {
+                    "cost": 1.77, 
+                    "end": "2018-01-06T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-01-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.15, 
+                    "end": "2018-01-06T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-01-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 34.96, 
+                            "end": "2018-01-06T08:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06763, 
+                            "start": "2018-01-06T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 533.5783281714539
+                        }, 
+                        {
+                            "cost": 1.76, 
+                            "end": "2018-01-06T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-01-06T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.16, 
+                            "end": "2018-01-06T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-01-06T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 39.08, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 550.8901196583096, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3596, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 823, 
+            "base": {
+                "bill_end_date": "2018-01-05T00:00:00.000000-08:00", 
+                "bill_start_date": "2017-12-07T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-01-11T00:00:00.000000-08:00", 
+                "bill_total_cost": 101.4, 
+                "bill_total_kwh": 643.008754, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 643.008754, 
+                "billing_account": "2000000971", 
+                "billing_address": "971 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000971"
+                ], 
+                "service_address": "971 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000971", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 56.48, 
+                    "end": "2017-12-07T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.19979, 
+                    "start": "2017-12-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 282.715115
+                }, 
+                {
+                    "cost": 71.43, 
+                    "end": "2017-12-07T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.27612, 
+                    "start": "2017-12-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 258.690635
+                }, 
+                {
+                    "cost": -48.01, 
+                    "end": "2017-12-07T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2017-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -53.61, 
+                    "end": "2017-12-07T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2017-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 15.81, 
+                    "end": "2017-12-07T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2017-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.28, 
+                    "end": "2017-12-07T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2017-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.2, 
+                    "end": "2017-12-07T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2017-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 11.16, 
+                    "end": "2018-01-01T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.20078, 
+                    "start": "2018-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 55.561973
+                }, 
+                {
+                    "cost": 14.86, 
+                    "end": "2018-01-01T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.27748, 
+                    "start": "2018-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 53.541432
+                }, 
+                {
+                    "cost": -9.49, 
+                    "end": "2018-01-01T08:00:00.000000+00:00", 
+                    "name": "CARE Discount", 
+                    "rate": null, 
+                    "start": "2018-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -10.58, 
+                    "end": "2018-01-01T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 3.17, 
+                    "end": "2018-01-01T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.05, 
+                    "end": "2018-01-01T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.43, 
+                    "end": "2018-01-01T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 44.8, 
+                    "end": "2017-12-07T08:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06763, 
+                    "start": "2017-12-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 662.399891
+                }, 
+                {
+                    "cost": 2.24, 
+                    "end": "2017-12-07T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2017-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.18, 
+                    "end": "2017-12-07T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2017-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "971", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 44.02, 
+                            "end": "2017-12-07T08:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06763, 
+                            "start": "2017-12-07T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 651.1267632995862
+                        }, 
+                        {
+                            "cost": 2.17, 
+                            "end": "2017-12-07T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2017-12-07T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.18, 
+                            "end": "2017-12-07T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2017-12-07T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000971", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 45.43, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 664.1990081240014, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3595, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }
+    ], 
+    "next": null
+}

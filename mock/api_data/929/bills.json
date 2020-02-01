@@ -1,0 +1,3839 @@
+{
+    "bills": [
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2020-01-09T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-12-11T00:00:00.000000-08:00", 
+                "bill_statement_date": "2020-01-16T00:00:00.000000-08:00", 
+                "bill_total_cost": 168.91, 
+                "bill_total_kwh": 713.176682, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 713.176682, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EV2A Home Charging"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 37.22, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.34773, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 107.051172
+                }, 
+                {
+                    "cost": 30.11, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.33103, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 90.951438
+                }, 
+                {
+                    "cost": 41.82, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.16234, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 257.625329
+                }, 
+                {
+                    "cost": -47.83, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 12.46, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.31, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.15, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 21.26, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.35468, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 59.951057
+                }, 
+                {
+                    "cost": 14.6, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.33798, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 43.183188
+                }, 
+                {
+                    "cost": 21.76, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.16928, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 128.538618
+                }, 
+                {
+                    "cost": -25.21, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 6.1, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.15, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.17, 
+                    "end": "2020-01-01T08:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2020-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 23.71, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.06161, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 384.845254
+                }, 
+                {
+                    "cost": 11.05, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.08415, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 131.260865
+                }, 
+                {
+                    "cost": 16.33, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.09613, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 169.925383
+                }, 
+                {
+                    "cost": 1.54, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.21, 
+                    "end": "2019-12-11T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 23.84, 
+                            "end": "2019-12-11T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.06161, 
+                            "start": "2019-12-11T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 380.8768826377133
+                        }, 
+                        {
+                            "cost": 11.46, 
+                            "end": "2019-12-11T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.08415, 
+                            "start": "2019-12-11T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 133.65114073228722
+                        }, 
+                        {
+                            "cost": 15.8, 
+                            "end": "2019-12-11T08:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.09613, 
+                            "start": "2019-12-11T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 167.687897179891
+                        }, 
+                        {
+                            "cost": 1.56, 
+                            "end": "2019-12-11T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-12-11T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.2, 
+                            "end": "2019-12-11T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-12-11T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV2-A", 
+                    "supplier_total_cost": 55.63, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 709.374841894716, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2948, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2019-12-10T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-11-12T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-12-17T00:00:00.000000-08:00", 
+                "bill_total_cost": 147.83, 
+                "bill_total_kwh": 649.882279, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 649.882279, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 70.71, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.37313, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 189.500381
+                }, 
+                {
+                    "cost": 33.33, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.22641, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 147.200099
+                }, 
+                {
+                    "cost": 41.0, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.13913, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 294.724264
+                }, 
+                {
+                    "cost": -49.54, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 17.23, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.44, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 3.38, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 5.09, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.03473, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 146.558491
+                }, 
+                {
+                    "cost": 11.89, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.03937, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 302.102877
+                }, 
+                {
+                    "cost": 13.21, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.07221, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 182.974458
+                }, 
+                {
+                    "cost": 0.9, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.19, 
+                    "end": "2019-11-12T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-11-12T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 5.25, 
+                            "end": "2019-11-12T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.03473, 
+                            "start": "2019-11-12T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 151.94101426412922
+                        }, 
+                        {
+                            "cost": 11.44, 
+                            "end": "2019-11-12T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.03937, 
+                            "start": "2019-11-12T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 294.1515741507511
+                        }, 
+                        {
+                            "cost": 13.37, 
+                            "end": "2019-11-12T08:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.07221, 
+                            "start": "2019-11-12T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 190.4955682267822
+                        }, 
+                        {
+                            "cost": 0.9, 
+                            "end": "2019-11-12T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-11-12T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.18, 
+                            "end": "2019-11-12T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-11-12T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 31.65, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 673.2826612046463, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2946, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2019-11-11T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-10-11T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-11-18T00:00:00.000000-08:00", 
+                "bill_total_cost": 158.98, 
+                "bill_total_kwh": 604.536139, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 604.536139, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 57.16, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.53476, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 106.89039
+                }, 
+                {
+                    "cost": 27.74, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.28917, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 95.941753
+                }, 
+                {
+                    "cost": 24.78, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.13578, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 182.522215
+                }, 
+                {
+                    "cost": -55.39, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 10.61, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.26, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.01, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 20.32, 
+                    "end": "2019-11-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.37313, 
+                    "start": "2019-11-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 54.469889
+                }, 
+                {
+                    "cost": 9.6, 
+                    "end": "2019-11-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.22641, 
+                    "start": "2019-11-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 42.406573
+                }, 
+                {
+                    "cost": 16.46, 
+                    "end": "2019-11-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.13913, 
+                    "start": "2019-11-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 118.309736
+                }, 
+                {
+                    "cost": -16.48, 
+                    "end": "2019-11-01T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-11-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 5.83, 
+                    "end": "2019-11-01T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-11-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.15, 
+                    "end": "2019-11-01T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-11-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.06, 
+                    "end": "2019-11-01T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-11-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.43, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.03473, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 41.295327
+                }, 
+                {
+                    "cost": 6.86, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.03706, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 184.980192
+                }, 
+                {
+                    "cost": 4.54, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.03937, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 115.304628
+                }, 
+                {
+                    "cost": 3.9, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.07221, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 54.067332
+                }, 
+                {
+                    "cost": 9.97, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.10114, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 98.593256
+                }, 
+                {
+                    "cost": 26.4, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.23963, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 110.162184
+                }, 
+                {
+                    "cost": 1.59, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.18, 
+                    "end": "2019-10-11T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 1.45, 
+                            "end": "2019-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.03473, 
+                            "start": "2019-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 40.92220532011326
+                        }, 
+                        {
+                            "cost": 6.91, 
+                            "end": "2019-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.03706, 
+                            "start": "2019-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 184.74029695197686
+                        }, 
+                        {
+                            "cost": 4.57, 
+                            "end": "2019-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.03937, 
+                            "start": "2019-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 121.03122348388358
+                        }, 
+                        {
+                            "cost": 3.91, 
+                            "end": "2019-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.07221, 
+                            "start": "2019-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 54.86152004044913
+                        }, 
+                        {
+                            "cost": 9.51, 
+                            "end": "2019-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.10114, 
+                            "start": "2019-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 96.08637099542456
+                        }, 
+                        {
+                            "cost": 26.75, 
+                            "end": "2019-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.23963, 
+                            "start": "2019-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 108.65392737845688
+                        }, 
+                        {
+                            "cost": 1.61, 
+                            "end": "2019-10-11T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-10-11T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.19, 
+                            "end": "2019-10-11T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-10-11T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 55.38, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 627.3642478260535, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2942, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2019-07-11T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-06-12T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-07-18T00:00:00.000000-07:00", 
+                "bill_total_cost": 151.56, 
+                "bill_total_kwh": 626.257796, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 626.257796, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 49.97, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.49359, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 101.229822
+                }, 
+                {
+                    "cost": 24.89, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.26912, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 92.483545
+                }, 
+                {
+                    "cost": 26.68, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.12973, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 205.643621
+                }, 
+                {
+                    "cost": -49.86, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 13.47, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.23, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.88, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 26.75, 
+                    "end": "2019-07-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.51832, 
+                    "start": "2019-07-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 51.60383
+                }, 
+                {
+                    "cost": 15.18, 
+                    "end": "2019-07-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.28096, 
+                    "start": "2019-07-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 54.014575
+                }, 
+                {
+                    "cost": 11.59, 
+                    "end": "2019-07-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.13452, 
+                    "start": "2019-07-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 86.129023
+                }, 
+                {
+                    "cost": -26.97, 
+                    "end": "2019-07-01T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-07-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 5.24, 
+                    "end": "2019-07-01T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-07-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.13, 
+                    "end": "2019-07-01T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-07-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.96, 
+                    "end": "2019-07-01T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-07-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 7.27, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.02432, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 299.129175
+                }, 
+                {
+                    "cost": 11.95, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.08206, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 145.602783
+                }, 
+                {
+                    "cost": 30.53, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.20684, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 147.578466
+                }, 
+                {
+                    "cost": 1.49, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.18, 
+                    "end": "2019-06-12T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-06-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 7.06, 
+                            "end": "2019-06-12T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.02432, 
+                            "start": "2019-06-12T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 292.69332366487936
+                        }, 
+                        {
+                            "cost": 12.15, 
+                            "end": "2019-06-12T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.08206, 
+                            "start": "2019-06-12T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 149.74221666438436
+                        }, 
+                        {
+                            "cost": 30.93, 
+                            "end": "2019-06-12T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.20684, 
+                            "start": "2019-06-12T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 151.68764400255841
+                        }, 
+                        {
+                            "cost": 1.55, 
+                            "end": "2019-06-12T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-06-12T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.17, 
+                            "end": "2019-06-12T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-06-12T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 55.37, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 613.1352648757104, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2940, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2019-06-11T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-05-13T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-06-18T00:00:00.000000-07:00", 
+                "bill_total_cost": 125.98, 
+                "bill_total_kwh": 494.525503, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 494.525503, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 65.0, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.49359, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 131.684901
+                }, 
+                {
+                    "cost": 34.01, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.26912, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 126.361555
+                }, 
+                {
+                    "cost": 28.86, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.12973, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 222.441503
+                }, 
+                {
+                    "cost": -64.49, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 15.86, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.28, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.38, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 5.4, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.02432, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 222.224931
+                }, 
+                {
+                    "cost": 10.31, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.08206, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 125.638694
+                }, 
+                {
+                    "cost": 26.94, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.20684, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 130.223975
+                }, 
+                {
+                    "cost": 1.29, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.14, 
+                    "end": "2019-05-13T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-05-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 5.56, 
+                            "end": "2019-05-13T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.02432, 
+                            "start": "2019-05-13T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 225.78157596038366
+                        }, 
+                        {
+                            "cost": 10.55, 
+                            "end": "2019-05-13T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.08206, 
+                            "start": "2019-05-13T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 128.96626690770822
+                        }, 
+                        {
+                            "cost": 27.33, 
+                            "end": "2019-05-13T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.20684, 
+                            "start": "2019-05-13T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 133.18158000804564
+                        }, 
+                        {
+                            "cost": 1.27, 
+                            "end": "2019-05-13T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-05-13T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.14, 
+                            "end": "2019-05-13T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-05-13T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 43.68, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 500.0221152313144, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2936, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2019-05-12T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-04-12T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-05-17T00:00:00.000000-07:00", 
+                "bill_total_cost": 133.57, 
+                "bill_total_kwh": 629.853322, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 629.853322, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 32.6, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.34021, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 95.826645
+                }, 
+                {
+                    "cost": 18.88, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.20726, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 91.116788
+                }, 
+                {
+                    "cost": 23.71, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.12866, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 184.28767
+                }, 
+                {
+                    "cost": -26.86, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 12.25, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.22, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.84, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 29.04, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.49359, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 58.826132
+                }, 
+                {
+                    "cost": 15.08, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.26912, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 56.019525
+                }, 
+                {
+                    "cost": 14.66, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.12973, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 112.995435
+                }, 
+                {
+                    "cost": -28.77, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 7.64, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.13, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.08, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.79, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.02014, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 88.864875
+                }, 
+                {
+                    "cost": 4.44, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.02417, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 183.54907
+                }, 
+                {
+                    "cost": 2.77, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.02432, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 113.753384
+                }, 
+                {
+                    "cost": 5.11, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.05266, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 97.1061
+                }, 
+                {
+                    "cost": 4.62, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.08206, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 56.335992
+                }, 
+                {
+                    "cost": 12.25, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.20684, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 59.218532
+                }, 
+                {
+                    "cost": 0.91, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.18, 
+                    "end": "2019-04-12T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-04-12T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 1.77, 
+                            "end": "2019-04-12T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.02014, 
+                            "start": "2019-04-12T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 90.15774717363743
+                        }, 
+                        {
+                            "cost": 4.44, 
+                            "end": "2019-04-12T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.02417, 
+                            "start": "2019-04-12T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 184.8922290039533
+                        }, 
+                        {
+                            "cost": 2.67, 
+                            "end": "2019-04-12T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.02432, 
+                            "start": "2019-04-12T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 110.39161597407647
+                        }, 
+                        {
+                            "cost": 5.23, 
+                            "end": "2019-04-12T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.05266, 
+                            "start": "2019-04-12T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 99.9910450634862
+                        }, 
+                        {
+                            "cost": 4.57, 
+                            "end": "2019-04-12T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.08206, 
+                            "start": "2019-04-12T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 54.95116417781587
+                        }, 
+                        {
+                            "cost": 11.84, 
+                            "end": "2019-04-12T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.20684, 
+                            "start": "2019-04-12T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 59.27215079665316
+                        }, 
+                        {
+                            "cost": 0.94, 
+                            "end": "2019-04-12T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-04-12T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.17, 
+                            "end": "2019-04-12T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-04-12T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 33.31, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 599.9169238775518, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2934, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2019-04-11T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-03-13T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-04-18T00:00:00.000000-07:00", 
+                "bill_total_cost": 125.71, 
+                "bill_total_kwh": 636.483462, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 636.483462, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 57.55, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.34021, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 169.166719
+                }, 
+                {
+                    "cost": 32.8, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.20726, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 158.261372
+                }, 
+                {
+                    "cost": 35.03, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.12866, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 272.237371
+                }, 
+                {
+                    "cost": -42.44, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 19.94, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.36, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 3.03, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 3.1, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.02014, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 154.075937
+                }, 
+                {
+                    "cost": 6.67, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.02417, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 275.956559
+                }, 
+                {
+                    "cost": 8.94, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.05266, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 169.826292
+                }, 
+                {
+                    "cost": 0.55, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.18, 
+                    "end": "2019-03-13T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-03-13T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 3.13, 
+                            "end": "2019-03-13T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.02014, 
+                            "start": "2019-03-13T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 154.6492724500966
+                        }, 
+                        {
+                            "cost": 6.75, 
+                            "end": "2019-03-13T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.02417, 
+                            "start": "2019-03-13T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 276.94989332940787
+                        }, 
+                        {
+                            "cost": 8.78, 
+                            "end": "2019-03-13T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.05266, 
+                            "start": "2019-03-13T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 169.1890596032879
+                        }, 
+                        {
+                            "cost": 0.55, 
+                            "end": "2019-03-13T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-03-13T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.18, 
+                            "end": "2019-03-13T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-03-13T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 20.41, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 604.4840301344251, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2930, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2019-03-12T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-02-11T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-03-19T00:00:00.000000-07:00", 
+                "bill_total_cost": 149.62, 
+                "bill_total_kwh": 723.007486, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 723.007486, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 44.12, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.33524, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 131.606902
+                }, 
+                {
+                    "cost": 25.66, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.2053, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 124.966096
+                }, 
+                {
+                    "cost": 25.64, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.12796, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 200.35542
+                }, 
+                {
+                    "cost": -30.94, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 15.55, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.25, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.4, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 24.65, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.34021, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 72.451383
+                }, 
+                {
+                    "cost": 12.82, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.20726, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 61.861945
+                }, 
+                {
+                    "cost": 14.87, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.12866, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 115.546774
+                }, 
+                {
+                    "cost": -18.15, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 8.13, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.14, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.27, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 3.81, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.02014, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 189.322081
+                }, 
+                {
+                    "cost": 7.74, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.02417, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 320.168273
+                }, 
+                {
+                    "cost": 10.78, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.05266, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 204.742831
+                }, 
+                {
+                    "cost": 0.66, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.22, 
+                    "end": "2019-02-11T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-02-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 3.79, 
+                            "end": "2019-02-11T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.02014, 
+                            "start": "2019-02-11T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 191.09142201869506
+                        }, 
+                        {
+                            "cost": 7.68, 
+                            "end": "2019-02-11T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.02417, 
+                            "start": "2019-02-11T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 315.2943143738508
+                        }, 
+                        {
+                            "cost": 10.41, 
+                            "end": "2019-02-11T08:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.05266, 
+                            "start": "2019-02-11T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 207.09493103168356
+                        }, 
+                        {
+                            "cost": 0.67, 
+                            "end": "2019-02-11T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-02-11T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.22, 
+                            "end": "2019-02-11T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-02-11T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 22.93, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 745.2018890760622, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2926, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2019-02-10T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-01-10T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-02-15T00:00:00.000000-08:00", 
+                "bill_total_cost": 161.58, 
+                "bill_total_kwh": 846.955091, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 846.955091, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 70.69, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.33524, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 210.849158
+                }, 
+                {
+                    "cost": 40.31, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.2053, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 196.333543
+                }, 
+                {
+                    "cost": 49.5, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.12796, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 386.861156
+                }, 
+                {
+                    "cost": -54.01, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 25.94, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.44, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 3.99, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 4.01, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.02014, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 198.989636
+                }, 
+                {
+                    "cost": 9.04, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.02417, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 374.171402
+                }, 
+                {
+                    "cost": 10.69, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.05266, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 203.055604
+                }, 
+                {
+                    "cost": 0.74, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.24, 
+                    "end": "2019-01-10T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-01-10T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 3.96, 
+                            "end": "2019-01-10T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.02014, 
+                            "start": "2019-01-10T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 197.78850724653313
+                        }, 
+                        {
+                            "cost": 9.44, 
+                            "end": "2019-01-10T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.02417, 
+                            "start": "2019-01-10T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 381.9564946198526
+                        }, 
+                        {
+                            "cost": 10.78, 
+                            "end": "2019-01-10T08:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.05266, 
+                            "start": "2019-01-10T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 203.53275932536226
+                        }, 
+                        {
+                            "cost": 0.74, 
+                            "end": "2019-01-10T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-01-10T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.24, 
+                            "end": "2019-01-10T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-01-10T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 25.87, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 816.8265130563941, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2923, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2019-01-09T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-12-11T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-01-16T00:00:00.000000-08:00", 
+                "bill_total_cost": 111.7, 
+                "bill_total_kwh": 559.236648, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 559.236648, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 30.82, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.33832, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 91.111532
+                }, 
+                {
+                    "cost": 19.98, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.2084, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 95.868898
+                }, 
+                {
+                    "cost": 21.4, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.13107, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 163.252132
+                }, 
+                {
+                    "cost": -24.17, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 11.38, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.2, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.81, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 17.34, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.33524, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 51.727193
+                }, 
+                {
+                    "cost": 9.39, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.2053, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 45.736474
+                }, 
+                {
+                    "cost": 12.29, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.12796, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 96.016118
+                }, 
+                {
+                    "cost": -13.16, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 6.44, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.1, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.96, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.78, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.02014, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 137.846686
+                }, 
+                {
+                    "cost": 6.05, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.02417, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 250.181192
+                }, 
+                {
+                    "cost": 7.44, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.05266, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 141.348924
+                }, 
+                {
+                    "cost": 0.48, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.17, 
+                    "end": "2018-12-11T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-12-11T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 2.77, 
+                            "end": "2018-12-11T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.02014, 
+                            "start": "2018-12-11T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 137.73287813351368
+                        }, 
+                        {
+                            "cost": 6.21, 
+                            "end": "2018-12-11T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.02417, 
+                            "start": "2018-12-11T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 248.27406336133643
+                        }, 
+                        {
+                            "cost": 7.34, 
+                            "end": "2018-12-11T08:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.05266, 
+                            "start": "2018-12-11T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 145.16248769435802
+                        }, 
+                        {
+                            "cost": 0.49, 
+                            "end": "2018-12-11T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-12-11T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.16, 
+                            "end": "2018-12-11T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-12-11T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 17.1, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 542.3419389694405, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2920, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2018-12-10T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-11-09T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-12-17T00:00:00.000000-08:00", 
+                "bill_total_cost": 151.54, 
+                "bill_total_kwh": 785.979925, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 785.979925, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 66.42, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.33832, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 196.308878
+                }, 
+                {
+                    "cost": 36.83, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.2084, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 176.7342
+                }, 
+                {
+                    "cost": 48.42, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.13107, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 369.387585
+                }, 
+                {
+                    "cost": -52.04, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 24.39, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.41, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 3.68, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 3.61, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.02014, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 179.270841
+                }, 
+                {
+                    "cost": 8.71, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.02417, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 360.36168
+                }, 
+                {
+                    "cost": 10.21, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.05266, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 193.842411
+                }, 
+                {
+                    "cost": 0.68, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.22, 
+                    "end": "2018-11-09T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-11-09T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 3.65, 
+                            "end": "2018-11-09T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.02014, 
+                            "start": "2018-11-09T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 178.80530374146466
+                        }, 
+                        {
+                            "cost": 8.89, 
+                            "end": "2018-11-09T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.02417, 
+                            "start": "2018-11-09T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 370.89519699678124
+                        }, 
+                        {
+                            "cost": 10.11, 
+                            "end": "2018-11-09T08:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.05266, 
+                            "start": "2018-11-09T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 194.35820315653692
+                        }, 
+                        {
+                            "cost": 0.68, 
+                            "end": "2018-11-09T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-11-09T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.21, 
+                            "end": "2018-11-09T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-11-09T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 25.36, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 748.1429886291404, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2917, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2018-11-08T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-10-11T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-11-16T00:00:00.000000-08:00", 
+                "bill_total_cost": 129.27, 
+                "bill_total_kwh": 527.782862, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 527.782862, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 51.99, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.48128, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 108.027659
+                }, 
+                {
+                    "cost": 24.41, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.26391, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 92.477633
+                }, 
+                {
+                    "cost": 22.39, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.12811, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 174.768176
+                }, 
+                {
+                    "cost": -48.85, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 12.81, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.21, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.93, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 14.06, 
+                    "end": "2018-11-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.33832, 
+                    "start": "2018-11-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 41.549552
+                }, 
+                {
+                    "cost": 7.72, 
+                    "end": "2018-11-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.2084, 
+                    "start": "2018-11-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 37.02704
+                }, 
+                {
+                    "cost": 8.79, 
+                    "end": "2018-11-01T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.13107, 
+                    "start": "2018-11-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 67.068866
+                }, 
+                {
+                    "cost": -10.13, 
+                    "end": "2018-11-01T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-11-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 4.96, 
+                    "end": "2018-11-01T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-11-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.08, 
+                    "end": "2018-11-01T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-11-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.75, 
+                    "end": "2018-11-01T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2018-11-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.73, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.02014, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 36.306101
+                }, 
+                {
+                    "cost": 3.84, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.02216, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 173.339474
+                }, 
+                {
+                    "cost": 1.67, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.02417, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 68.993734
+                }, 
+                {
+                    "cost": 2.19, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.05266, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 41.573648
+                }, 
+                {
+                    "cost": 7.15, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.07777, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 91.982986
+                }, 
+                {
+                    "cost": 21.33, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.19793, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 107.751722
+                }, 
+                {
+                    "cost": 1.09, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.15, 
+                    "end": "2018-10-11T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-10-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 0.76, 
+                            "end": "2018-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.02014, 
+                            "start": "2018-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 36.81635250413124
+                        }, 
+                        {
+                            "cost": 3.84, 
+                            "end": "2018-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.02216, 
+                            "start": "2018-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 178.2526156593277
+                        }, 
+                        {
+                            "cost": 1.68, 
+                            "end": "2018-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.02417, 
+                            "start": "2018-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 66.89005071144126
+                        }, 
+                        {
+                            "cost": 2.24, 
+                            "end": "2018-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.05266, 
+                            "start": "2018-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 40.836445860345826
+                        }, 
+                        {
+                            "cost": 7.0, 
+                            "end": "2018-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.07777, 
+                            "start": "2018-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 92.74946795161159
+                        }, 
+                        {
+                            "cost": 21.33, 
+                            "end": "2018-10-11T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.19793, 
+                            "start": "2018-10-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 107.27556457580916
+                        }, 
+                        {
+                            "cost": 1.09, 
+                            "end": "2018-10-11T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-10-11T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.15, 
+                            "end": "2018-10-11T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-10-11T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 38.96, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 533.5118330772997, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2914, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2018-10-10T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-09-11T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-10-17T00:00:00.000000-07:00", 
+                "bill_total_cost": 116.51, 
+                "bill_total_kwh": 468.44706, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 468.44706, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 58.16, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Peak", 
+                    "rate": 0.48128, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 120.843214
+                }, 
+                {
+                    "cost": 31.15, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Part Peak", 
+                    "rate": 0.26391, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 118.05132
+                }, 
+                {
+                    "cost": 25.65, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Energy Charges - Off Peak", 
+                    "rate": 0.12811, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 200.206624
+                }, 
+                {
+                    "cost": -54.84, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 14.56, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.24, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.22, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 4.44, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.02216, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 200.452968
+                }, 
+                {
+                    "cost": 8.98, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.07777, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 115.487356
+                }, 
+                {
+                    "cost": 24.69, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.19793, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 124.722125
+                }, 
+                {
+                    "cost": 1.13, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.13, 
+                    "end": "2018-09-11T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-09-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 4.43, 
+                            "end": "2018-09-11T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.02216, 
+                            "start": "2018-09-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 210.04374419413557
+                        }, 
+                        {
+                            "cost": 8.84, 
+                            "end": "2018-09-11T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.07777, 
+                            "start": "2018-09-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 116.38444270095798
+                        }, 
+                        {
+                            "cost": 23.68, 
+                            "end": "2018-09-11T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.19793, 
+                            "start": "2018-09-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 123.35070387358158
+                        }, 
+                        {
+                            "cost": 1.15, 
+                            "end": "2018-09-11T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-09-11T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.13, 
+                            "end": "2018-09-11T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-09-11T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_total_cost": 38.19, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 448.53990190088155, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2912, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2018-09-10T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-08-10T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-09-17T00:00:00.000000-07:00", 
+                "bill_total_cost": 149.31, 
+                "bill_total_kwh": 609.104204, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 609.104204, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 44.49, 
+                    "end": "2018-08-10T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21169, 
+                    "start": "2018-08-10T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 210.162189
+                }, 
+                {
+                    "cost": 57.54, 
+                    "end": "2018-08-10T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.27993, 
+                    "start": "2018-08-10T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 205.55731
+                }, 
+                {
+                    "cost": -45.73, 
+                    "end": "2018-08-10T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-08-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 13.6, 
+                    "end": "2018-08-10T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-08-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.23, 
+                    "end": "2018-08-10T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-08-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.13, 
+                    "end": "2018-08-10T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2018-08-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 20.77, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21536, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 96.464781
+                }, 
+                {
+                    "cost": 27.21, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.28478, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 95.553424
+                }, 
+                {
+                    "cost": -20.38, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 6.55, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.1, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.03, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 40.36, 
+                    "end": "2018-08-10T07:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06732, 
+                    "start": "2018-08-10T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 599.456105
+                }, 
+                {
+                    "cost": 1.24, 
+                    "end": "2018-08-10T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-08-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.17, 
+                    "end": "2018-08-10T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-08-10T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 40.29, 
+                            "end": "2018-08-10T07:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06732, 
+                            "start": "2018-08-10T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 593.6492583466755
+                        }, 
+                        {
+                            "cost": 1.2, 
+                            "end": "2018-08-10T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-08-10T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.18, 
+                            "end": "2018-08-10T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-08-10T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 44.36, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 600.0598700530364, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2909, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2018-08-09T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-07-11T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-08-16T00:00:00.000000-07:00", 
+                "bill_total_cost": 141.24, 
+                "bill_total_kwh": 607.188033, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 607.188033, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 61.35, 
+                    "end": "2018-07-11T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21169, 
+                    "start": "2018-07-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 289.807058
+                }, 
+                {
+                    "cost": 79.32, 
+                    "end": "2018-07-11T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.27993, 
+                    "start": "2018-07-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 283.353241
+                }, 
+                {
+                    "cost": -61.72, 
+                    "end": "2018-07-11T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-07-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 18.66, 
+                    "end": "2018-07-11T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-07-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.31, 
+                    "end": "2018-07-11T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-07-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.92, 
+                    "end": "2018-07-11T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2018-07-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 39.09, 
+                    "end": "2018-07-11T07:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06732, 
+                    "start": "2018-07-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 580.733334
+                }, 
+                {
+                    "cost": 1.14, 
+                    "end": "2018-07-11T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-07-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.17, 
+                    "end": "2018-07-11T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-07-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 38.01, 
+                            "end": "2018-07-11T07:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06732, 
+                            "start": "2018-07-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 568.1610244979101
+                        }, 
+                        {
+                            "cost": 1.17, 
+                            "end": "2018-07-11T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-07-11T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.17, 
+                            "end": "2018-07-11T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-07-11T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 39.53, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 572.4949732315038, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2906, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 781, 
+            "base": {
+                "bill_end_date": "2018-07-10T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-06-11T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-07-17T00:00:00.000000-07:00", 
+                "bill_total_cost": 132.1, 
+                "bill_total_kwh": 568.292094, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 568.292094, 
+                "billing_account": "2000000929", 
+                "billing_address": "929 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000929"
+                ], 
+                "service_address": "929 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000929", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 61.51, 
+                    "end": "2018-06-11T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.21169, 
+                    "start": "2018-06-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 290.559665
+                }, 
+                {
+                    "cost": 70.51, 
+                    "end": "2018-06-11T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.27993, 
+                    "start": "2018-06-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 251.893763
+                }, 
+                {
+                    "cost": -57.43, 
+                    "end": "2018-06-11T07:00:00.000000+00:00", 
+                    "name": "Generation Credit", 
+                    "rate": null, 
+                    "start": "2018-06-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 17.48, 
+                    "end": "2018-06-11T07:00:00.000000+00:00", 
+                    "name": "Power Charge Indifference Adjustment", 
+                    "rate": null, 
+                    "start": "2018-06-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.3, 
+                    "end": "2018-06-11T07:00:00.000000+00:00", 
+                    "name": "Franchise Fee Surcharge", 
+                    "rate": null, 
+                    "start": "2018-06-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.75, 
+                    "end": "2018-06-11T07:00:00.000000+00:00", 
+                    "name": "Mountain View Utility Users' Tax (3.000%)", 
+                    "rate": null, 
+                    "start": "2018-06-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 35.76, 
+                    "end": "2018-06-11T07:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06732, 
+                    "start": "2018-06-11T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 531.175603
+                }, 
+                {
+                    "cost": 1.06, 
+                    "end": "2018-06-11T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-06-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.16, 
+                    "end": "2018-06-11T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-06-11T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "929", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 35.82, 
+                            "end": "2018-06-11T07:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06732, 
+                            "start": "2018-06-11T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 534.742089718591
+                        }, 
+                        {
+                            "cost": 1.05, 
+                            "end": "2018-06-11T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-06-11T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.15, 
+                            "end": "2018-06-11T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-06-11T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000929", 
+                    "supplier_tariff": "E-1", 
+                    "supplier_total_cost": 39.85, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 524.6460791195608, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2903, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }
+    ], 
+    "next": null
+}

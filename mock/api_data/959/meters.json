@@ -1,0 +1,119 @@
+{
+    "meters": [
+        {
+            "authorization_uid": "811", 
+            "base": {
+                "billing_account": "2000000959", 
+                "billing_address": "959 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000959"
+                ], 
+                "service_address": "959 #100 Main St, Anytown, CA 12345", 
+                "service_class": "electric", 
+                "service_identifier": "1000000959", 
+                "service_tariff": "EVA Residential Whole House Service Electric Vehicles"
+            }, 
+            "bill_count": 12, 
+            "bill_coverage": [
+                [
+                    "2017-11-29T08:00:00.000000+00:00", 
+                    "2017-12-27T08:00:00.000000+00:00"
+                ], 
+                [
+                    "2017-12-28T08:00:00.000000+00:00", 
+                    "2018-01-28T08:00:00.000000+00:00"
+                ], 
+                [
+                    "2018-04-30T07:00:00.000000+00:00", 
+                    "2018-05-29T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2018-05-30T07:00:00.000000+00:00", 
+                    "2018-06-27T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2018-11-30T08:00:00.000000+00:00", 
+                    "2018-12-30T08:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-03-01T08:00:00.000000+00:00", 
+                    "2019-03-31T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-04-01T07:00:00.000000+00:00", 
+                    "2019-04-30T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-05-01T07:00:00.000000+00:00", 
+                    "2019-05-30T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-07-01T07:00:00.000000+00:00", 
+                    "2019-07-30T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-08-30T07:00:00.000000+00:00", 
+                    "2019-09-30T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-10-01T07:00:00.000000+00:00", 
+                    "2019-10-29T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-10-30T07:00:00.000000+00:00", 
+                    "2019-12-01T08:00:00.000000+00:00"
+                ]
+            ], 
+            "bill_sources": [
+                "pdf"
+            ], 
+            "blocks": [
+                "base", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "exports": {}, 
+            "exports_list": [], 
+            "interval_count": 17422, 
+            "interval_coverage": [
+                [
+                    "2018-01-23T16:00:00.000000+00:00", 
+                    "2018-11-04T08:00:00.000000+00:00"
+                ], 
+                [
+                    "2018-11-04T09:00:00.000000+00:00", 
+                    "2019-11-03T08:00:00.000000+00:00"
+                ]
+            ], 
+            "interval_sources": [
+                "greenbutton_cmd"
+            ], 
+            "is_activated": true, 
+            "is_archived": false, 
+            "notes": [], 
+            "ongoing_monitoring": {
+                "frequency": "off", 
+                "next_prepay": null, 
+                "next_refresh": null, 
+                "prepay": null
+            }, 
+            "status": "updated", 
+            "status_message": "Anonymous service generated", 
+            "status_ts": "2020-01-29T00:00:00.000000+00:00", 
+            "suppliers": [
+                {
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000959", 
+                    "supplier_tariff": "E-EV", 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": "959", 
+            "user_email": "anonymous@customer.com", 
+            "user_uid": 1, 
+            "utility": "SVCE"
+        }
+    ], 
+    "next": null
+}

@@ -1,0 +1,1364 @@
+{
+    "bills": [
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2019-11-26T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-10-29T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-12-05T00:00:00.000000-08:00", 
+                "bill_total_cost": 0.07, 
+                "bill_total_kwh": -76.252042, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -76.252042, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.0, 
+                    "end": "2018-11-29T08:00:00.000000+00:00", 
+                    "name": "Total NEM Charges", 
+                    "rate": null, 
+                    "start": "2018-11-29T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -6.14, 
+                    "end": "2019-10-29T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.08519, 
+                    "start": "2019-10-29T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -72.057348
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-10-29T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-10-29T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 6.21, 
+                    "end": "2019-10-29T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-10-29T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -6.22, 
+                            "end": "2019-10-29T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.08519, 
+                            "start": "2019-10-29T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -71.9662670430654
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-10-29T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-10-29T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 6.18, 
+                            "end": "2019-10-29T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-10-29T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -74.72220602634656, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3463, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2019-09-29T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-08-29T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-10-04T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.44, 
+                "bill_total_kwh": -345.250449, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -345.250449, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": -28.78, 
+                    "end": "2019-08-29T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.08519, 
+                    "start": "2019-08-29T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -337.870053
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-08-29T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-08-29T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 29.22, 
+                    "end": "2019-08-29T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-08-29T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -29.4, 
+                            "end": "2019-08-29T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.08519, 
+                            "start": "2019-08-29T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -336.75316600188665
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-08-29T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-08-29T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 28.42, 
+                            "end": "2019-08-29T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-08-29T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -358.0463303268495, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3457, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2019-07-29T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-06-28T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-08-05T00:00:00.000000-07:00", 
+                "bill_total_cost": -1.21, 
+                "bill_total_kwh": -663.554727, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -663.554727, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": -46.22, 
+                    "end": "2019-06-28T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.07121, 
+                    "start": "2019-06-28T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -649.017496
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-06-28T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-06-28T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 45.01, 
+                    "end": "2019-06-28T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-06-28T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -44.85, 
+                            "end": "2019-06-28T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.07121, 
+                            "start": "2019-06-28T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -627.5347012426047
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-06-28T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-06-28T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 44.37, 
+                            "end": "2019-06-28T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-06-28T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -651.5329413983065, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3452, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2019-05-29T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-04-30T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-06-05T00:00:00.000000-07:00", 
+                "bill_total_cost": 1.45, 
+                "bill_total_kwh": -597.771073, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -597.771073, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": -1.81, 
+                    "end": "2019-04-30T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.06732, 
+                    "start": "2019-04-30T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -26.907895
+                }, 
+                {
+                    "cost": -39.36, 
+                    "end": "2019-04-30T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.07121, 
+                    "start": "2019-04-30T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -552.742171
+                }, 
+                {
+                    "cost": 357.86, 
+                    "end": "2019-04-30T07:00:00.000000+00:00", 
+                    "name": "2019 NEM Cash Out Check", 
+                    "rate": null, 
+                    "start": "2019-04-30T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -356.21, 
+                    "end": "2019-04-30T07:00:00.000000+00:00", 
+                    "name": "2019 NEM Credit Balance 0.000000 @ $0.00000", 
+                    "rate": null, 
+                    "start": "2019-04-30T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-04-30T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-04-30T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 40.97, 
+                    "end": "2019-04-30T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-04-30T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -1.85, 
+                            "end": "2019-04-30T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.06732, 
+                            "start": "2019-04-30T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -27.706839176748637
+                        }, 
+                        {
+                            "cost": -39.05, 
+                            "end": "2019-04-30T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.07121, 
+                            "start": "2019-04-30T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -560.8828775653269
+                        }, 
+                        {
+                            "cost": 359.26, 
+                            "end": "2019-04-30T07:00:00.000000+00:00", 
+                            "name": "2019 NEM Cash Out Check", 
+                            "rate": null, 
+                            "start": "2019-04-30T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -362.14, 
+                            "end": "2019-04-30T07:00:00.000000+00:00", 
+                            "name": "2019 NEM Credit Balance 0.000000 @ $0.00000", 
+                            "rate": null, 
+                            "start": "2019-04-30T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-04-30T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-04-30T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 40.12, 
+                            "end": "2019-04-30T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-04-30T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -568.6734894775242, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3447, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2019-04-29T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-03-29T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-05-06T00:00:00.000000-07:00", 
+                "bill_total_cost": -0.46, 
+                "bill_total_kwh": -614.387034, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -614.387034, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": -39.14, 
+                    "end": "2019-03-29T07:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.06732, 
+                    "start": "2019-03-29T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -581.382274
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-03-29T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-03-29T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 38.68, 
+                    "end": "2019-03-29T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-03-29T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -38.57, 
+                            "end": "2019-03-29T07:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.06732, 
+                            "start": "2019-03-29T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -579.4114995497273
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-03-29T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-03-29T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 39.43, 
+                            "end": "2019-03-29T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-03-29T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -600.696086074348, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3442, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2019-03-28T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-02-28T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-04-04T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.3, 
+                "bill_total_kwh": -270.598044, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -270.598044, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": -17.97, 
+                    "end": "2019-02-28T08:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.06732, 
+                    "start": "2019-02-28T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -266.980887
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-02-28T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-02-28T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 18.27, 
+                    "end": "2019-02-28T08:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-02-28T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -18.74, 
+                            "end": "2019-02-28T08:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.06732, 
+                            "start": "2019-02-28T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -270.66947657095267
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-02-28T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-02-28T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 18.59, 
+                            "end": "2019-02-28T08:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-02-28T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -275.1479674565529, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3438, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2018-12-27T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-11-29T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-01-04T00:00:00.000000-08:00", 
+                "bill_total_cost": -0.01, 
+                "bill_total_kwh": 84.695755, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 84.695755, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 5.92, 
+                    "end": "2018-11-29T08:00:00.000000+00:00", 
+                    "name": "Generation - Total", 
+                    "rate": 0.06732, 
+                    "start": "2018-11-29T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 88.01112
+                }, 
+                {
+                    "cost": 0.02, 
+                    "end": "2018-11-29T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-11-29T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -5.95, 
+                    "end": "2018-11-29T08:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2018-11-29T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 5.85, 
+                            "end": "2018-11-29T08:00:00.000000+00:00", 
+                            "name": "Generation - Total", 
+                            "rate": 0.06732, 
+                            "start": "2018-11-29T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 84.88202547341406
+                        }, 
+                        {
+                            "cost": 0.02, 
+                            "end": "2018-11-29T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-11-29T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -5.76, 
+                            "end": "2018-11-29T08:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2018-11-29T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 85.99350697604318, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3433, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2018-08-27T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-07-27T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-09-04T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.69, 
+                "bill_total_kwh": -624.152547, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -624.152547, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": -39.62, 
+                    "end": "2018-07-27T07:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06732, 
+                    "start": "2018-07-27T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -588.559585
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-07-27T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-07-27T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 40.31, 
+                    "end": "2018-07-27T07:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-07-27T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -41.43, 
+                            "end": "2018-07-27T07:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06732, 
+                            "start": "2018-07-27T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -592.0580506785675
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-07-27T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-07-27T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 39.86, 
+                            "end": "2018-07-27T07:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-07-27T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -593.5971552405804, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3430, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2018-06-26T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-05-29T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-07-03T00:00:00.000000-07:00", 
+                "bill_total_cost": 1.38, 
+                "bill_total_kwh": -813.764443, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -813.764443, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": -50.68, 
+                    "end": "2018-05-29T07:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06732, 
+                    "start": "2018-05-29T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -752.789795
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-05-29T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-05-29T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 52.06, 
+                    "end": "2018-05-29T07:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-05-29T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -51.17, 
+                            "end": "2018-05-29T07:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06732, 
+                            "start": "2018-05-29T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -764.0521682522736
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-05-29T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-05-29T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 52.29, 
+                            "end": "2018-05-29T07:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-05-29T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -784.9267717066565, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3427, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2018-05-28T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-04-27T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-06-04T00:00:00.000000-07:00", 
+                "bill_total_cost": -0.09, 
+                "bill_total_kwh": -674.929472, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -674.929472, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": -44.19, 
+                    "end": "2018-04-27T07:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06732, 
+                    "start": "2018-04-27T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -656.373999
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-04-27T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-04-27T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 44.1, 
+                    "end": "2018-04-27T07:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-04-27T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -44.68, 
+                            "end": "2018-04-27T07:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06732, 
+                            "start": "2018-04-27T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -684.4087366106809
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-04-27T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-04-27T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 44.26, 
+                            "end": "2018-04-27T07:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-04-27T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -665.2589135421025, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3425, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2018-01-25T00:00:00.000000-08:00", 
+                "bill_start_date": "2017-12-27T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-02-01T00:00:00.000000-08:00", 
+                "bill_total_cost": -0.03, 
+                "bill_total_kwh": -47.15487, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -47.15487, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": -3.12, 
+                    "end": "2017-12-27T08:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06763, 
+                    "start": "2017-12-27T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -46.064736
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2017-12-27T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2017-12-27T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 3.09, 
+                    "end": "2017-12-27T08:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2017-12-27T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -3.15, 
+                            "end": "2017-12-27T08:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06763, 
+                            "start": "2017-12-27T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -47.10067359371174
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2017-12-27T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2017-12-27T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 3.14, 
+                            "end": "2017-12-27T08:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2017-12-27T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -48.25255131136041, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3421, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 813, 
+            "base": {
+                "bill_end_date": "2017-12-26T00:00:00.000000-08:00", 
+                "bill_start_date": "2017-12-23T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-01-03T00:00:00.000000-08:00", 
+                "bill_total_cost": 0.0, 
+                "bill_total_kwh": -21.882166, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -21.882166, 
+                "billing_account": "2000000961", 
+                "billing_address": "961 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000961"
+                ], 
+                "service_address": "961 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000961", 
+                "service_tariff": "E1 X Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": -1.45, 
+                    "end": "2017-12-23T08:00:00.000000+00:00", 
+                    "name": "GENERATION - TOTAL", 
+                    "rate": 0.06763, 
+                    "start": "2017-12-23T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -21.404777
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2017-12-23T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2017-12-23T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.45, 
+                    "end": "2017-12-23T08:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2017-12-23T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "961", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -1.49, 
+                            "end": "2017-12-23T08:00:00.000000+00:00", 
+                            "name": "GENERATION - TOTAL", 
+                            "rate": 0.06763, 
+                            "start": "2017-12-23T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -22.304366631560022
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2017-12-23T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2017-12-23T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 1.47, 
+                            "end": "2017-12-23T08:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2017-12-23T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000961", 
+                    "supplier_tariff": "NEM E-1", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -22.73599895821777, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3417, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }
+    ], 
+    "next": null
+}

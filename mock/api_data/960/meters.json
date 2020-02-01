@@ -1,0 +1,111 @@
+{
+    "meters": [
+        {
+            "authorization_uid": "812", 
+            "base": {
+                "billing_account": "2000000960", 
+                "billing_address": "960 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000960"
+                ], 
+                "service_address": "960 #100 Main St, Anytown, CA 12345", 
+                "service_class": "electric", 
+                "service_identifier": "1000000960", 
+                "service_tariff": "ETOUA X Residential Time-of-Use Service"
+            }, 
+            "bill_count": 9, 
+            "bill_coverage": [
+                [
+                    "2018-12-01T08:00:00.000000+00:00", 
+                    "2019-01-01T08:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-01-31T08:00:00.000000+00:00", 
+                    "2019-03-03T08:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-03-04T08:00:00.000000+00:00", 
+                    "2019-04-01T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-04-02T07:00:00.000000+00:00", 
+                    "2019-05-01T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-05-02T07:00:00.000000+00:00", 
+                    "2019-06-02T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-07-02T07:00:00.000000+00:00", 
+                    "2019-07-31T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-09-03T07:00:00.000000+00:00", 
+                    "2019-10-01T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-10-02T07:00:00.000000+00:00", 
+                    "2019-10-30T07:00:00.000000+00:00"
+                ], 
+                [
+                    "2019-10-31T07:00:00.000000+00:00", 
+                    "2019-12-02T08:00:00.000000+00:00"
+                ]
+            ], 
+            "bill_sources": [
+                "pdf"
+            ], 
+            "blocks": [
+                "base", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "exports": {}, 
+            "exports_list": [], 
+            "interval_count": 17398, 
+            "interval_coverage": [
+                [
+                    "2018-01-23T16:00:00.000000+00:00", 
+                    "2018-07-30T14:00:00.000000+00:00"
+                ], 
+                [
+                    "2018-07-31T14:00:00.000000+00:00", 
+                    "2018-11-04T08:00:00.000000+00:00"
+                ], 
+                [
+                    "2018-11-04T09:00:00.000000+00:00", 
+                    "2019-11-03T08:00:00.000000+00:00"
+                ]
+            ], 
+            "interval_sources": [
+                "greenbutton_cmd"
+            ], 
+            "is_activated": true, 
+            "is_archived": false, 
+            "notes": [], 
+            "ongoing_monitoring": {
+                "frequency": "off", 
+                "next_prepay": null, 
+                "next_refresh": null, 
+                "prepay": null
+            }, 
+            "status": "updated", 
+            "status_message": "Anonymous service generated", 
+            "status_ts": "2020-01-29T00:00:00.000000+00:00", 
+            "suppliers": [
+                {
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000960", 
+                    "supplier_tariff": "NEM E-TOU-A", 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": "960", 
+            "user_email": "anonymous@customer.com", 
+            "user_uid": 1, 
+            "utility": "SVCE"
+        }
+    ], 
+    "next": null
+}

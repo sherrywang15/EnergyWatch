@@ -1,0 +1,2912 @@
+{
+    "bills": [
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2019-12-18T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-11-19T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-12-27T00:00:00.000000-08:00", 
+                "bill_total_cost": 0.33, 
+                "bill_total_kwh": 207.167401, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 207.167401, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.49, 
+                    "end": "2019-11-19T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-11-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 8.68, 
+                    "end": "2019-11-19T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.06581, 
+                    "start": "2019-11-19T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 131.926537
+                }, 
+                {
+                    "cost": 6.66, 
+                    "end": "2019-11-19T08:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.08385, 
+                    "start": "2019-11-19T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 79.451851
+                }, 
+                {
+                    "cost": 0.75, 
+                    "end": "2019-11-19T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-11-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2019-11-19T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-11-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -16.31, 
+                    "end": "2019-11-19T08:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-11-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 8.47, 
+                            "end": "2019-11-19T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.06581, 
+                            "start": "2019-11-19T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 127.9306822428925
+                        }, 
+                        {
+                            "cost": 6.65, 
+                            "end": "2019-11-19T08:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.08385, 
+                            "start": "2019-11-19T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 79.24232855898974
+                        }, 
+                        {
+                            "cost": 0.76, 
+                            "end": "2019-11-19T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-11-19T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.06, 
+                            "end": "2019-11-19T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-11-19T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -16.22, 
+                            "end": "2019-11-19T08:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-11-19T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 206.10319979285507, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3591, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2019-07-21T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-06-20T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-07-29T00:00:00.000000-07:00", 
+                "bill_total_cost": -0.18, 
+                "bill_total_kwh": -367.694335, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -367.694335, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.19, 
+                    "end": "2019-06-20T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-06-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.37, 
+                    "end": "2019-07-01T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-07-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -28.0, 
+                    "end": "2019-06-20T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.07264, 
+                    "start": "2019-06-20T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -385.493528
+                }, 
+                {
+                    "cost": 4.37, 
+                    "end": "2019-06-20T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.16952, 
+                    "start": "2019-06-20T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 25.793361
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-06-20T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-06-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-06-20T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-06-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 22.89, 
+                    "end": "2019-06-20T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-06-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -27.62, 
+                            "end": "2019-06-20T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.07264, 
+                            "start": "2019-06-20T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -369.82904626506894
+                        }, 
+                        {
+                            "cost": 4.32, 
+                            "end": "2019-06-20T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.16952, 
+                            "start": "2019-06-20T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 26.520208298150894
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-06-20T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-06-20T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-06-20T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-06-20T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 22.79, 
+                            "end": "2019-06-20T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-06-20T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -361.3787567933127, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3586, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2019-06-19T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-05-21T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-06-27T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.96, 
+                "bill_total_kwh": -293.970653, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -293.970653, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.18, 
+                    "end": "2019-05-21T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-05-21T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.32, 
+                    "end": "2019-06-01T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-06-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -5.44, 
+                    "end": "2019-05-21T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.05142, 
+                    "start": "2019-05-21T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -105.783264
+                }, 
+                {
+                    "cost": 0.55, 
+                    "end": "2019-05-21T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.06909, 
+                    "start": "2019-05-21T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 7.990624
+                }, 
+                {
+                    "cost": -15.28, 
+                    "end": "2019-05-21T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.07264, 
+                    "start": "2019-05-21T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -210.285377
+                }, 
+                {
+                    "cost": 3.53, 
+                    "end": "2019-05-21T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.16952, 
+                    "start": "2019-05-21T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 20.800442
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-05-21T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-05-21T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-05-21T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-05-21T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 17.1, 
+                    "end": "2019-05-21T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-05-21T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -5.51, 
+                            "end": "2019-05-21T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.05142, 
+                            "start": "2019-05-21T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -110.56674389997382
+                        }, 
+                        {
+                            "cost": 0.55, 
+                            "end": "2019-05-21T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.06909, 
+                            "start": "2019-05-21T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 7.796800339794436
+                        }, 
+                        {
+                            "cost": -15.51, 
+                            "end": "2019-05-21T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.07264, 
+                            "start": "2019-05-21T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -211.75028023023322
+                        }, 
+                        {
+                            "cost": 3.5, 
+                            "end": "2019-05-21T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.16952, 
+                            "start": "2019-05-21T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 20.189892357831848
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-05-21T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-05-21T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-05-21T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-05-21T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 17.2, 
+                            "end": "2019-05-21T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-05-21T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -312.46174294415016, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3580, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2019-05-20T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-04-22T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-05-29T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.34, 
+                "bill_total_kwh": -184.453124, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -184.453124, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.15, 
+                    "end": "2019-04-22T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-04-22T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.34, 
+                    "end": "2019-05-01T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -3.23, 
+                    "end": "2019-04-22T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.04753, 
+                    "start": "2019-04-22T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -67.92042
+                }, 
+                {
+                    "cost": -7.96, 
+                    "end": "2019-04-22T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.05142, 
+                    "start": "2019-04-22T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -154.811794
+                }, 
+                {
+                    "cost": 0.83, 
+                    "end": "2019-04-22T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.0652, 
+                    "start": "2019-04-22T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 12.707332
+                }, 
+                {
+                    "cost": 1.93, 
+                    "end": "2019-04-22T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.06909, 
+                    "start": "2019-04-22T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 27.906095
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-04-22T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-04-22T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-04-22T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-04-22T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 8.28, 
+                    "end": "2019-04-22T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-04-22T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -3.24, 
+                            "end": "2019-04-22T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.04753, 
+                            "start": "2019-04-22T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -70.40748769828376
+                        }, 
+                        {
+                            "cost": -8.02, 
+                            "end": "2019-04-22T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.05142, 
+                            "start": "2019-04-22T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -155.39123377434123
+                        }, 
+                        {
+                            "cost": 0.82, 
+                            "end": "2019-04-22T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.0652, 
+                            "start": "2019-04-22T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 12.526044105068422
+                        }, 
+                        {
+                            "cost": 1.96, 
+                            "end": "2019-04-22T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.06909, 
+                            "start": "2019-04-22T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 27.455646844865132
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-04-22T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-04-22T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-04-22T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-04-22T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 8.32, 
+                            "end": "2019-04-22T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-04-22T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -192.0592792399467, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3573, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2019-04-21T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-03-21T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-04-29T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.5, 
+                "bill_total_kwh": -195.48667, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -195.48667, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.54, 
+                    "end": "2019-03-21T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-03-21T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -10.44, 
+                    "end": "2019-03-21T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.04753, 
+                    "start": "2019-03-21T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -219.649452
+                }, 
+                {
+                    "cost": 2.14, 
+                    "end": "2019-03-21T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.0652, 
+                    "start": "2019-03-21T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 32.76499
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-03-21T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-03-21T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-03-21T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-03-21T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 8.26, 
+                    "end": "2019-03-21T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-03-21T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -10.4, 
+                            "end": "2019-03-21T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.04753, 
+                            "start": "2019-03-21T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -217.5032497115092
+                        }, 
+                        {
+                            "cost": 2.17, 
+                            "end": "2019-03-21T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.0652, 
+                            "start": "2019-03-21T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 32.47388981267191
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-03-21T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-03-21T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-03-21T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-03-21T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 8.46, 
+                            "end": "2019-03-21T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-03-21T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -191.3010197547621, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3567, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2019-03-20T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-02-20T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-03-28T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.79, 
+                "bill_total_kwh": -16.422142, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -16.422142, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.16, 
+                    "end": "2019-02-20T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-02-20T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.34, 
+                    "end": "2019-03-01T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -3.37, 
+                    "end": "2019-02-20T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.04753, 
+                    "start": "2019-02-20T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -70.984106
+                }, 
+                {
+                    "cost": 3.65, 
+                    "end": "2019-02-20T08:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.0652, 
+                    "start": "2019-02-20T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 55.910853
+                }, 
+                {
+                    "cost": 0.01, 
+                    "end": "2019-02-20T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-02-20T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-02-20T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-02-20T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -3.49, 
+                            "end": "2019-02-20T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.04753, 
+                            "start": "2019-02-20T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -71.26636305962322
+                        }, 
+                        {
+                            "cost": 3.71, 
+                            "end": "2019-02-20T08:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.0652, 
+                            "start": "2019-02-20T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 55.59757653685611
+                        }, 
+                        {
+                            "cost": 0.01, 
+                            "end": "2019-02-20T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-02-20T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-02-20T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-02-20T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 0.22, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -16.285864074833093, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3560, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2019-02-19T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-01-18T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-02-27T00:00:00.000000-08:00", 
+                "bill_total_cost": 13.46, 
+                "bill_total_kwh": 217.715726, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 217.715726, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.54, 
+                    "end": "2019-01-18T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-01-18T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 6.02, 
+                    "end": "2019-01-18T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.04753, 
+                    "start": "2019-01-18T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 126.739993
+                }, 
+                {
+                    "cost": 6.24, 
+                    "end": "2019-01-18T08:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.0652, 
+                    "start": "2019-01-18T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 95.680402
+                }, 
+                {
+                    "cost": 0.6, 
+                    "end": "2019-01-18T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2019-01-18T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2019-01-18T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-01-18T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 5.97, 
+                            "end": "2019-01-18T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.04753, 
+                            "start": "2019-01-18T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 123.50313964302079
+                        }, 
+                        {
+                            "cost": 6.24, 
+                            "end": "2019-01-18T08:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.0652, 
+                            "start": "2019-01-18T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 95.51471825180369
+                        }, 
+                        {
+                            "cost": 0.59, 
+                            "end": "2019-01-18T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2019-01-18T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.06, 
+                            "end": "2019-01-18T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-01-18T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 12.78, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 225.33145369965055, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3555, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2019-01-17T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-12-19T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-01-25T00:00:00.000000-08:00", 
+                "bill_total_cost": 3.8, 
+                "bill_total_kwh": 229.726516, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 229.726516, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.21, 
+                    "end": "2018-12-19T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-12-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.29, 
+                    "end": "2019-01-01T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2019-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-01-18T08:00:00.000000+00:00", 
+                    "name": "Total NEM Charges", 
+                    "rate": null, 
+                    "start": "2018-01-18T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 7.85, 
+                    "end": "2018-12-19T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.04753, 
+                    "start": "2018-12-19T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 165.180592
+                }, 
+                {
+                    "cost": 4.78, 
+                    "end": "2018-12-19T08:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.0652, 
+                    "start": "2018-12-19T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 73.337642
+                }, 
+                {
+                    "cost": 0.62, 
+                    "end": "2018-12-19T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-12-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.07, 
+                    "end": "2018-12-19T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-12-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -10.02, 
+                    "end": "2018-12-19T08:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2018-12-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 7.63, 
+                            "end": "2018-12-19T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.04753, 
+                            "start": "2018-12-19T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 162.0197631056475
+                        }, 
+                        {
+                            "cost": 4.75, 
+                            "end": "2018-12-19T08:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.0652, 
+                            "start": "2018-12-19T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 71.12740165481668
+                        }, 
+                        {
+                            "cost": 0.61, 
+                            "end": "2018-12-19T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-12-19T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.07, 
+                            "end": "2018-12-19T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-12-19T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -10.09, 
+                            "end": "2018-12-19T08:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2018-12-19T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 2.99, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 246.487134656786, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3550, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2018-12-18T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-11-19T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-12-27T00:00:00.000000-08:00", 
+                "bill_total_cost": 0.74, 
+                "bill_total_kwh": 295.260939, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 295.260939, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.5, 
+                    "end": "2018-11-19T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-11-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 8.28, 
+                    "end": "2018-11-19T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.04753, 
+                    "start": "2018-11-19T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 174.305282
+                }, 
+                {
+                    "cost": 7.01, 
+                    "end": "2018-11-19T08:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.0652, 
+                    "start": "2018-11-19T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 107.504334
+                }, 
+                {
+                    "cost": 0.77, 
+                    "end": "2018-11-19T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-11-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.08, 
+                    "end": "2018-11-19T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-11-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -15.9, 
+                    "end": "2018-11-19T08:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2018-11-19T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 8.31, 
+                            "end": "2018-11-19T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.04753, 
+                            "start": "2018-11-19T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 176.0840341164638
+                        }, 
+                        {
+                            "cost": 6.78, 
+                            "end": "2018-11-19T08:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.0652, 
+                            "start": "2018-11-19T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 107.65632295929437
+                        }, 
+                        {
+                            "cost": 0.76, 
+                            "end": "2018-11-19T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-11-19T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.08, 
+                            "end": "2018-11-19T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-11-19T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -15.96, 
+                            "end": "2018-11-19T08:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2018-11-19T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 282.87416808008436, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3545, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2018-11-18T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-10-19T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-11-28T00:00:00.000000-08:00", 
+                "bill_total_cost": 0.29, 
+                "bill_total_kwh": 131.081236, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 131.081236, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.53, 
+                    "end": "2018-10-19T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-10-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.24, 
+                    "end": "2018-10-19T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.04753, 
+                    "start": "2018-10-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 47.054842
+                }, 
+                {
+                    "cost": 4.87, 
+                    "end": "2018-10-19T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.0652, 
+                    "start": "2018-10-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 74.711738
+                }, 
+                {
+                    "cost": 0.36, 
+                    "end": "2018-10-19T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-10-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.04, 
+                    "end": "2018-10-19T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-10-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -7.75, 
+                    "end": "2018-10-19T07:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2018-10-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 2.27, 
+                            "end": "2018-10-19T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.04753, 
+                            "start": "2018-10-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 49.038595856059615
+                        }, 
+                        {
+                            "cost": 4.92, 
+                            "end": "2018-10-19T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.0652, 
+                            "start": "2018-10-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 75.93168390059151
+                        }, 
+                        {
+                            "cost": 0.36, 
+                            "end": "2018-10-19T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-10-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.04, 
+                            "end": "2018-10-19T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-10-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -7.74, 
+                            "end": "2018-10-19T07:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2018-10-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 132.50705985542106, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3541, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2018-10-18T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-09-19T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-10-25T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.63, 
+                "bill_total_kwh": 16.545059, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 16.545059, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.21, 
+                    "end": "2018-09-19T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-09-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.31, 
+                    "end": "2018-10-01T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-10-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -1.34, 
+                    "end": "2018-09-19T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.04753, 
+                    "start": "2018-09-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -28.291156
+                }, 
+                {
+                    "cost": 2.72, 
+                    "end": "2018-09-19T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Winter", 
+                    "rate": 0.0652, 
+                    "start": "2018-09-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 41.791806
+                }, 
+                {
+                    "cost": -1.47, 
+                    "end": "2018-09-19T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.06875, 
+                    "start": "2018-09-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -21.318806
+                }, 
+                {
+                    "cost": 3.87, 
+                    "end": "2018-09-19T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.16563, 
+                    "start": "2018-09-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 23.383031
+                }, 
+                {
+                    "cost": 0.18, 
+                    "end": "2018-09-19T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-09-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-09-19T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-09-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -3.85, 
+                    "end": "2018-09-19T07:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2018-09-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -1.33, 
+                            "end": "2018-09-19T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.04753, 
+                            "start": "2018-09-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -28.033363132726514
+                        }, 
+                        {
+                            "cost": 2.72, 
+                            "end": "2018-09-19T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Winter", 
+                            "rate": 0.0652, 
+                            "start": "2018-09-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 41.95199753027778
+                        }, 
+                        {
+                            "cost": -1.42, 
+                            "end": "2018-09-19T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.06875, 
+                            "start": "2018-09-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -21.248067539693082
+                        }, 
+                        {
+                            "cost": 3.86, 
+                            "end": "2018-09-19T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.16563, 
+                            "start": "2018-09-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 23.114302851747894
+                        }, 
+                        {
+                            "cost": 0.19, 
+                            "end": "2018-09-19T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-09-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-09-19T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-09-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -4.02, 
+                            "end": "2018-09-19T07:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2018-09-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 16.39914414386413, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3535, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2018-09-18T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-08-20T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-09-26T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.2, 
+                "bill_total_kwh": -34.455534, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -34.455534, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.2, 
+                    "end": "2018-08-20T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-08-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.31, 
+                    "end": "2018-09-01T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-09-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -6.73, 
+                    "end": "2018-08-20T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.06875, 
+                    "start": "2018-08-20T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -97.890687
+                }, 
+                {
+                    "cost": 10.55, 
+                    "end": "2018-08-20T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.16563, 
+                    "start": "2018-08-20T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 63.680895
+                }, 
+                {
+                    "cost": 0.2, 
+                    "end": "2018-08-20T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-08-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-08-20T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-08-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -4.33, 
+                    "end": "2018-08-20T07:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2018-08-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -6.52, 
+                            "end": "2018-08-20T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.06875, 
+                            "start": "2018-08-20T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -97.01549356745377
+                        }, 
+                        {
+                            "cost": 10.84, 
+                            "end": "2018-08-20T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.16563, 
+                            "start": "2018-08-20T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 66.18768777697959
+                        }, 
+                        {
+                            "cost": 0.21, 
+                            "end": "2018-08-20T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-08-20T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-08-20T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-08-20T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -4.33, 
+                            "end": "2018-08-20T07:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2018-08-20T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -31.658872088717217, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3530, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2018-08-19T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-07-19T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-08-27T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.26, 
+                "bill_total_kwh": -174.242605, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -174.242605, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.54, 
+                    "end": "2018-07-19T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-07-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -15.73, 
+                    "end": "2018-07-19T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK - SUMMER", 
+                    "rate": 0.06875, 
+                    "start": "2018-07-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -228.851697
+                }, 
+                {
+                    "cost": 9.66, 
+                    "end": "2018-07-19T07:00:00.000000+00:00", 
+                    "name": "GENERATION - ON PEAK - SUMMER", 
+                    "rate": 0.16563, 
+                    "start": "2018-07-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 58.325935
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-07-19T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-07-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-07-19T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-07-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 5.79, 
+                    "end": "2018-07-19T07:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-07-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -15.69, 
+                            "end": "2018-07-19T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK - SUMMER", 
+                            "rate": 0.06875, 
+                            "start": "2018-07-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -225.88623427669413
+                        }, 
+                        {
+                            "cost": 9.79, 
+                            "end": "2018-07-19T07:00:00.000000+00:00", 
+                            "name": "GENERATION - ON PEAK - SUMMER", 
+                            "rate": 0.16563, 
+                            "start": "2018-07-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 57.27719827885742
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-07-19T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-07-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-07-19T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-07-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 5.67, 
+                            "end": "2018-07-19T07:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-07-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TOU-B", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -166.71832658224778, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3525, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2018-07-18T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-06-19T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-07-26T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.37, 
+                "bill_total_kwh": -213.01532, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -213.01532, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.49, 
+                    "end": "2018-06-19T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-06-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -17.96, 
+                    "end": "2018-06-19T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK - SUMMER", 
+                    "rate": 0.06875, 
+                    "start": "2018-06-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -261.16765
+                }, 
+                {
+                    "cost": 8.42, 
+                    "end": "2018-06-19T07:00:00.000000+00:00", 
+                    "name": "GENERATION - ON PEAK - SUMMER", 
+                    "rate": 0.16563, 
+                    "start": "2018-06-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 50.858847
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-06-19T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-06-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-06-19T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-06-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 9.42, 
+                    "end": "2018-06-19T07:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-06-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -18.49, 
+                            "end": "2018-06-19T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK - SUMMER", 
+                            "rate": 0.06875, 
+                            "start": "2018-06-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -263.31934578177174
+                        }, 
+                        {
+                            "cost": 8.41, 
+                            "end": "2018-06-19T07:00:00.000000+00:00", 
+                            "name": "GENERATION - ON PEAK - SUMMER", 
+                            "rate": 0.16563, 
+                            "start": "2018-06-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 50.48854383189367
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-06-19T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-06-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-06-19T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-06-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 9.6, 
+                            "end": "2018-06-19T07:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-06-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TO", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -207.41194575860047, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3521, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2018-05-17T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-04-19T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-05-24T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.51, 
+                "bill_total_kwh": -200.17061, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -200.17061, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.48, 
+                    "end": "2018-04-19T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-04-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -12.35, 
+                    "end": "2018-04-19T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.04753, 
+                    "start": "2018-04-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -259.793449
+                }, 
+                {
+                    "cost": 3.68, 
+                    "end": "2018-04-19T07:00:00.000000+00:00", 
+                    "name": "GENERATION - ON PEAK -", 
+                    "rate": 0.0652, 
+                    "start": "2018-04-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 56.46712
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-04-19T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-04-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-04-19T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-04-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 8.7, 
+                    "end": "2018-04-19T07:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-04-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -12.05, 
+                            "end": "2018-04-19T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.04753, 
+                            "start": "2018-04-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -256.1507712604041
+                        }, 
+                        {
+                            "cost": 3.66, 
+                            "end": "2018-04-19T07:00:00.000000+00:00", 
+                            "name": "GENERATION - ON PEAK -", 
+                            "rate": 0.0652, 
+                            "start": "2018-04-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 55.55249119242089
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-04-19T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-04-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-04-19T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-04-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 8.62, 
+                            "end": "2018-04-19T07:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-04-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TO", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -201.62548924489136, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3517, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2018-04-18T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-03-20T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-04-26T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.31, 
+                "bill_total_kwh": -136.44757, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -136.44757, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.5, 
+                    "end": "2018-03-20T07:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-03-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -5.91, 
+                    "end": "2018-03-20T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.04753, 
+                    "start": "2018-03-20T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -124.320361
+                }, 
+                {
+                    "cost": -3.97, 
+                    "end": "2018-03-20T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.04937, 
+                    "start": "2018-03-20T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -80.388913
+                }, 
+                {
+                    "cost": 2.59, 
+                    "end": "2018-03-20T07:00:00.000000+00:00", 
+                    "name": "GENERATION - ON PEAK -", 
+                    "rate": 0.0652, 
+                    "start": "2018-03-20T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 39.779585
+                }, 
+                {
+                    "cost": 1.84, 
+                    "end": "2018-03-20T07:00:00.000000+00:00", 
+                    "name": "GENERATION - ON PEAK -", 
+                    "rate": 0.06798, 
+                    "start": "2018-03-20T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 27.047026
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-03-20T07:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-03-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-03-20T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-03-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 5.26, 
+                    "end": "2018-03-20T07:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-03-20T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": -5.7, 
+                            "end": "2018-03-20T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.04753, 
+                            "start": "2018-03-20T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -121.52368292659924
+                        }, 
+                        {
+                            "cost": -3.95, 
+                            "end": "2018-03-20T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.04937, 
+                            "start": "2018-03-20T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -80.40549111854418
+                        }, 
+                        {
+                            "cost": 2.6, 
+                            "end": "2018-03-20T07:00:00.000000+00:00", 
+                            "name": "GENERATION - ON PEAK -", 
+                            "rate": 0.0652, 
+                            "start": "2018-03-20T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 41.04407256045469
+                        }, 
+                        {
+                            "cost": 1.86, 
+                            "end": "2018-03-20T07:00:00.000000+00:00", 
+                            "name": "GENERATION - ON PEAK -", 
+                            "rate": 0.06798, 
+                            "start": "2018-03-20T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 26.619335592894764
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-03-20T07:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-03-20T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-03-20T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-03-20T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 5.26, 
+                            "end": "2018-03-20T07:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-03-20T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TO", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -140.88118571851584, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3513, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2018-03-19T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-02-16T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-03-26T00:00:00.000000-07:00", 
+                "bill_total_cost": 11.72, 
+                "bill_total_kwh": 170.228231, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 170.228231, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.22, 
+                    "end": "2018-02-16T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-02-16T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.32, 
+                    "end": "2018-03-01T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 2.96, 
+                    "end": "2018-02-16T08:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.04937, 
+                    "start": "2018-02-16T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 60.05262
+                }, 
+                {
+                    "cost": 7.64, 
+                    "end": "2018-02-16T08:00:00.000000+00:00", 
+                    "name": "GENERATION - ON PEAK -", 
+                    "rate": 0.06798, 
+                    "start": "2018-02-16T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 112.404685
+                }, 
+                {
+                    "cost": 0.53, 
+                    "end": "2018-02-16T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-02-16T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.05, 
+                    "end": "2018-02-16T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-02-16T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 2.88, 
+                            "end": "2018-02-16T08:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.04937, 
+                            "start": "2018-02-16T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 58.75794798417448
+                        }, 
+                        {
+                            "cost": 7.55, 
+                            "end": "2018-02-16T08:00:00.000000+00:00", 
+                            "name": "GENERATION - ON PEAK -", 
+                            "rate": 0.06798, 
+                            "start": "2018-02-16T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 112.4124382040697
+                        }, 
+                        {
+                            "cost": 0.53, 
+                            "end": "2018-02-16T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-02-16T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.05, 
+                            "end": "2018-02-16T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-02-16T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TO", 
+                    "supplier_total_cost": 11.55, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 169.357620832751, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3508, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 820, 
+            "base": {
+                "bill_end_date": "2018-02-15T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-01-18T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-02-23T00:00:00.000000-08:00", 
+                "bill_total_cost": 8.11, 
+                "bill_total_kwh": 114.524914, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 114.524914, 
+                "billing_account": "2000000968", 
+                "billing_address": "968 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000968"
+                ], 
+                "service_address": "968 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000968", 
+                "service_tariff": "ETOUB Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 0.49, 
+                    "end": "2018-01-18T08:00:00.000000+00:00", 
+                    "name": "Gilroy Utility Users' Tax (5.000%)", 
+                    "rate": null, 
+                    "start": "2018-01-18T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 1.09, 
+                    "end": "2018-01-18T08:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.04937, 
+                    "start": "2018-01-18T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 22.024736
+                }, 
+                {
+                    "cost": 6.14, 
+                    "end": "2018-01-18T08:00:00.000000+00:00", 
+                    "name": "GENERATION - ON PEAK -", 
+                    "rate": 0.06798, 
+                    "start": "2018-01-18T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 90.307388
+                }, 
+                {
+                    "cost": 0.36, 
+                    "end": "2018-01-18T08:00:00.000000+00:00", 
+                    "name": "Local Utility Users Tax", 
+                    "rate": null, 
+                    "start": "2018-01-18T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 0.03, 
+                    "end": "2018-01-18T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-01-18T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "968", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 1.09, 
+                            "end": "2018-01-18T08:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.04937, 
+                            "start": "2018-01-18T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 21.74530762130019
+                        }, 
+                        {
+                            "cost": 6.34, 
+                            "end": "2018-01-18T08:00:00.000000+00:00", 
+                            "name": "GENERATION - ON PEAK -", 
+                            "rate": 0.06798, 
+                            "start": "2018-01-18T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 93.55982093486104
+                        }, 
+                        {
+                            "cost": 0.37, 
+                            "end": "2018-01-18T08:00:00.000000+00:00", 
+                            "name": "Local Utility Users Tax", 
+                            "rate": null, 
+                            "start": "2018-01-18T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 0.03, 
+                            "end": "2018-01-18T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-01-18T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000968", 
+                    "supplier_tariff": "NEM E-TO", 
+                    "supplier_total_cost": 8.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 121.46200004195632, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 3503, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }
+    ], 
+    "next": null
+}

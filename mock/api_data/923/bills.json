@@ -1,0 +1,3047 @@
+{
+    "bills": [
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2020-01-15T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-12-17T00:00:00.000000-08:00", 
+                "bill_statement_date": "2020-01-23T00:00:00.000000-08:00", 
+                "bill_total_cost": 48.55, 
+                "bill_total_kwh": 670.553157, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 670.553157, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 40.61, 
+                    "end": "2019-12-17T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.07002, 
+                    "start": "2019-12-17T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 580.020209
+                }, 
+                {
+                    "cost": 7.74, 
+                    "end": "2019-12-17T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.08278, 
+                    "start": "2019-12-17T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 93.508906
+                }, 
+                {
+                    "cost": 0.2, 
+                    "end": "2019-12-17T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-12-17T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 40.61, 
+                            "end": "2019-12-17T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.07002, 
+                            "start": "2019-12-17T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 580.5166645132781
+                        }, 
+                        {
+                            "cost": 7.6, 
+                            "end": "2019-12-17T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.08278, 
+                            "start": "2019-12-17T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 96.0542488797205
+                        }, 
+                        {
+                            "cost": 0.21, 
+                            "end": "2019-12-17T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-12-17T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 51.13, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 718.9776658948524, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2892, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2019-12-16T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-11-16T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-12-23T00:00:00.000000-08:00", 
+                "bill_total_cost": 3.53, 
+                "bill_total_kwh": 743.404018, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 743.404018, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 46.57, 
+                    "end": "2019-11-16T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.07002, 
+                    "start": "2019-11-16T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 665.089152
+                }, 
+                {
+                    "cost": 8.19, 
+                    "end": "2019-11-16T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.08278, 
+                    "start": "2019-11-16T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 98.902857
+                }, 
+                {
+                    "cost": 0.22, 
+                    "end": "2019-11-16T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-11-16T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -51.45, 
+                    "end": "2019-11-16T08:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-11-16T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 47.08, 
+                            "end": "2019-11-16T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.07002, 
+                            "start": "2019-11-16T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 649.778772662451
+                        }, 
+                        {
+                            "cost": 8.39, 
+                            "end": "2019-11-16T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.08278, 
+                            "start": "2019-11-16T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 97.24582550845369
+                        }, 
+                        {
+                            "cost": 0.22, 
+                            "end": "2019-11-16T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-11-16T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -50.7, 
+                            "end": "2019-11-16T08:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-11-16T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 4.22, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 747.9861443857579, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2888, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2019-11-15T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-10-17T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-11-21T00:00:00.000000-08:00", 
+                "bill_total_cost": -0.11, 
+                "bill_total_kwh": 526.10767, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 526.10767, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 9.48, 
+                    "end": "2019-10-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.05701, 
+                    "start": "2019-10-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 166.213057
+                }, 
+                {
+                    "cost": 19.42, 
+                    "end": "2019-10-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.07002, 
+                    "start": "2019-10-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 277.29079
+                }, 
+                {
+                    "cost": 4.92, 
+                    "end": "2019-10-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.08278, 
+                    "start": "2019-10-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 59.487865
+                }, 
+                {
+                    "cost": -1.82, 
+                    "end": "2019-10-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.10342, 
+                    "start": "2019-10-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -17.624055
+                }, 
+                {
+                    "cost": 2.15, 
+                    "end": "2019-10-17T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.21712, 
+                    "start": "2019-10-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 9.899239
+                }, 
+                {
+                    "cost": 0.14, 
+                    "end": "2019-10-17T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-10-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -34.4, 
+                    "end": "2019-10-17T07:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-10-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 9.26, 
+                            "end": "2019-10-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.05701, 
+                            "start": "2019-10-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 164.5170768605142
+                        }, 
+                        {
+                            "cost": 19.47, 
+                            "end": "2019-10-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.07002, 
+                            "start": "2019-10-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 280.57625653372065
+                        }, 
+                        {
+                            "cost": 5.02, 
+                            "end": "2019-10-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.08278, 
+                            "start": "2019-10-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 61.35779403489315
+                        }, 
+                        {
+                            "cost": -1.87, 
+                            "end": "2019-10-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.10342, 
+                            "start": "2019-10-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -17.907492015265937
+                        }, 
+                        {
+                            "cost": 2.14, 
+                            "end": "2019-10-17T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.21712, 
+                            "start": "2019-10-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 10.074598946396991
+                        }, 
+                        {
+                            "cost": 0.15, 
+                            "end": "2019-10-17T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-10-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -34.64, 
+                            "end": "2019-10-17T07:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-10-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 508.5149799405427, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2883, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2019-07-17T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-06-18T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-07-24T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.92, 
+                "bill_total_kwh": -183.367223, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": -183.367223, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 6.02, 
+                    "end": "2019-06-18T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.04293, 
+                    "start": "2019-06-18T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 140.163006
+                }, 
+                {
+                    "cost": -11.66, 
+                    "end": "2019-06-18T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.0879, 
+                    "start": "2019-06-18T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -132.667689
+                }, 
+                {
+                    "cost": -34.47, 
+                    "end": "2019-06-18T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.19805, 
+                    "start": "2019-06-18T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -174.027126
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2019-06-18T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-06-18T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 41.03, 
+                    "end": "2019-06-18T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-06-18T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 5.97, 
+                            "end": "2019-06-18T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.04293, 
+                            "start": "2019-06-18T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 141.13227854362734
+                        }, 
+                        {
+                            "cost": -11.93, 
+                            "end": "2019-06-18T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.0879, 
+                            "start": "2019-06-18T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -136.96377709299253
+                        }, 
+                        {
+                            "cost": -34.5, 
+                            "end": "2019-06-18T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.19805, 
+                            "start": "2019-06-18T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -174.20697132702315
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2019-06-18T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-06-18T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 39.96, 
+                            "end": "2019-06-18T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-06-18T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": -177.75952439116665, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2877, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2019-06-17T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-05-17T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-06-24T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.05, 
+                "bill_total_kwh": 143.349097, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 143.349097, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 14.48, 
+                    "end": "2019-05-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.04293, 
+                    "start": "2019-05-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 337.26597
+                }, 
+                {
+                    "cost": -7.49, 
+                    "end": "2019-05-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.0879, 
+                    "start": "2019-05-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -85.237658
+                }, 
+                {
+                    "cost": -21.5, 
+                    "end": "2019-05-17T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.19805, 
+                    "start": "2019-05-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -108.572478
+                }, 
+                {
+                    "cost": 0.04, 
+                    "end": "2019-05-17T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-05-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 14.52, 
+                    "end": "2019-05-17T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-05-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 14.77, 
+                            "end": "2019-05-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.04293, 
+                            "start": "2019-05-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 336.5868497749741
+                        }, 
+                        {
+                            "cost": -7.44, 
+                            "end": "2019-05-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.0879, 
+                            "start": "2019-05-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -84.4628969507324
+                        }, 
+                        {
+                            "cost": -21.61, 
+                            "end": "2019-05-17T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.19805, 
+                            "start": "2019-05-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -109.73056618453383
+                        }, 
+                        {
+                            "cost": 0.04, 
+                            "end": "2019-05-17T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-05-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 13.99, 
+                            "end": "2019-05-17T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-05-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 153.35010633795918, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2872, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2019-05-16T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-04-18T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-05-23T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.18, 
+                "bill_total_kwh": 83.629253, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 83.629253, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 7.18, 
+                    "end": "2019-04-18T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.04293, 
+                    "start": "2019-04-18T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 167.249246
+                }, 
+                {
+                    "cost": -1.04, 
+                    "end": "2019-04-18T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.05222, 
+                    "start": "2019-04-18T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -19.854885
+                }, 
+                {
+                    "cost": 1.97, 
+                    "end": "2019-04-18T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.06413, 
+                    "start": "2019-04-18T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 30.734846
+                }, 
+                {
+                    "cost": -3.02, 
+                    "end": "2019-04-18T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.0879, 
+                    "start": "2019-04-18T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -34.386318
+                }, 
+                {
+                    "cost": -12.7, 
+                    "end": "2019-04-18T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.19805, 
+                    "start": "2019-04-18T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -64.106613
+                }, 
+                {
+                    "cost": 0.02, 
+                    "end": "2019-04-18T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-04-18T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 7.77, 
+                    "end": "2019-04-18T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2019-04-18T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 7.35, 
+                            "end": "2019-04-18T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.04293, 
+                            "start": "2019-04-18T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 171.32203196392217
+                        }, 
+                        {
+                            "cost": -1.06, 
+                            "end": "2019-04-18T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.05222, 
+                            "start": "2019-04-18T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -20.040734475957528
+                        }, 
+                        {
+                            "cost": 1.98, 
+                            "end": "2019-04-18T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.06413, 
+                            "start": "2019-04-18T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 30.211050253556916
+                        }, 
+                        {
+                            "cost": -3.09, 
+                            "end": "2019-04-18T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.0879, 
+                            "start": "2019-04-18T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -33.9857085571579
+                        }, 
+                        {
+                            "cost": -13.18, 
+                            "end": "2019-04-18T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.19805, 
+                            "start": "2019-04-18T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -63.750858417642426
+                        }, 
+                        {
+                            "cost": 0.02, 
+                            "end": "2019-04-18T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-04-18T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 7.93, 
+                            "end": "2019-04-18T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2019-04-18T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 81.38103827192722, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2868, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2019-04-17T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-03-19T00:00:00.000000-07:00", 
+                "bill_statement_date": "2019-04-24T00:00:00.000000-07:00", 
+                "bill_total_cost": 551.81, 
+                "bill_total_kwh": 360.378254, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 360.378254, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 532.91, 
+                    "end": "2018-04-17T07:00:00.000000+00:00", 
+                    "name": "Total NEM Charges", 
+                    "rate": null, 
+                    "start": "2018-04-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 13.29, 
+                    "end": "2019-03-19T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.05222, 
+                    "start": "2019-03-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 254.568172
+                }, 
+                {
+                    "cost": 5.51, 
+                    "end": "2019-03-19T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.06413, 
+                    "start": "2019-03-19T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 85.911007
+                }, 
+                {
+                    "cost": 0.1, 
+                    "end": "2019-03-19T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-03-19T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 13.03, 
+                            "end": "2019-03-19T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.05222, 
+                            "start": "2019-03-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 250.5601468849711
+                        }, 
+                        {
+                            "cost": 5.76, 
+                            "end": "2019-03-19T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.06413, 
+                            "start": "2019-03-19T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 86.13723881057119
+                        }, 
+                        {
+                            "cost": 0.1, 
+                            "end": "2019-03-19T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-03-19T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 18.8, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 362.3421342216334, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2864, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2019-03-18T00:00:00.000000-07:00", 
+                "bill_start_date": "2019-02-15T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-03-25T00:00:00.000000-07:00", 
+                "bill_total_cost": 33.51, 
+                "bill_total_kwh": 611.950121, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 611.950121, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 28.25, 
+                    "end": "2019-02-15T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.05222, 
+                    "start": "2019-02-15T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 540.930047
+                }, 
+                {
+                    "cost": 5.07, 
+                    "end": "2019-02-15T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.06413, 
+                    "start": "2019-02-15T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 79.033423
+                }, 
+                {
+                    "cost": 0.19, 
+                    "end": "2019-02-15T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-02-15T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 28.37, 
+                            "end": "2019-02-15T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.05222, 
+                            "start": "2019-02-15T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 534.0829145682828
+                        }, 
+                        {
+                            "cost": 5.13, 
+                            "end": "2019-02-15T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.06413, 
+                            "start": "2019-02-15T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 78.18456965398299
+                        }, 
+                        {
+                            "cost": 0.18, 
+                            "end": "2019-02-15T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-02-15T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 32.72, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 607.4820544881026, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2859, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2019-02-14T00:00:00.000000-08:00", 
+                "bill_start_date": "2019-01-16T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-02-22T00:00:00.000000-08:00", 
+                "bill_total_cost": 44.85, 
+                "bill_total_kwh": 817.937091, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 817.937091, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 37.41, 
+                    "end": "2019-01-16T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.05222, 
+                    "start": "2019-01-16T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 716.483569
+                }, 
+                {
+                    "cost": 7.2, 
+                    "end": "2019-01-16T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.06413, 
+                    "start": "2019-01-16T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 112.249997
+                }, 
+                {
+                    "cost": 0.24, 
+                    "end": "2019-01-16T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2019-01-16T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 38.38, 
+                            "end": "2019-01-16T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.05222, 
+                            "start": "2019-01-16T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 712.5237752178674
+                        }, 
+                        {
+                            "cost": 7.02, 
+                            "end": "2019-01-16T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.06413, 
+                            "start": "2019-01-16T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 112.20752164503992
+                        }, 
+                        {
+                            "cost": 0.24, 
+                            "end": "2019-01-16T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2019-01-16T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 46.2, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 840.787936656217, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2854, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2019-01-15T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-12-17T00:00:00.000000-08:00", 
+                "bill_statement_date": "2019-01-23T00:00:00.000000-08:00", 
+                "bill_total_cost": 35.61, 
+                "bill_total_kwh": 1114.89196, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 1114.89196, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 49.83, 
+                    "end": "2018-12-17T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.05222, 
+                    "start": "2018-12-17T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 954.242145
+                }, 
+                {
+                    "cost": 8.21, 
+                    "end": "2018-12-17T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.06413, 
+                    "start": "2018-12-17T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 128.097668
+                }, 
+                {
+                    "cost": 0.34, 
+                    "end": "2018-12-17T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-12-17T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -22.77, 
+                    "end": "2018-12-17T08:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2018-12-17T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 48.88, 
+                            "end": "2018-12-17T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.05222, 
+                            "start": "2018-12-17T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 949.454770278909
+                        }, 
+                        {
+                            "cost": 7.86, 
+                            "end": "2018-12-17T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.06413, 
+                            "start": "2018-12-17T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 123.93964171035448
+                        }, 
+                        {
+                            "cost": 0.33, 
+                            "end": "2018-12-17T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-12-17T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -22.95, 
+                            "end": "2018-12-17T08:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2018-12-17T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 36.61, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 1147.6177823267358, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2849, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2018-12-16T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-11-16T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-12-21T00:00:00.000000-08:00", 
+                "bill_total_cost": -0.21, 
+                "bill_total_kwh": 862.044811, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 862.044811, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 37.83, 
+                    "end": "2018-11-16T08:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.05222, 
+                    "start": "2018-11-16T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 724.447036
+                }, 
+                {
+                    "cost": 8.73, 
+                    "end": "2018-11-16T08:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.06413, 
+                    "start": "2018-11-16T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 136.130788
+                }, 
+                {
+                    "cost": 0.26, 
+                    "end": "2018-11-16T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-11-16T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -47.03, 
+                    "end": "2018-11-16T08:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2018-11-16T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 38.24, 
+                            "end": "2018-11-16T08:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.05222, 
+                            "start": "2018-11-16T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 753.7421939040507
+                        }, 
+                        {
+                            "cost": 8.68, 
+                            "end": "2018-11-16T08:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.06413, 
+                            "start": "2018-11-16T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 135.18657657380746
+                        }, 
+                        {
+                            "cost": 0.25, 
+                            "end": "2018-11-16T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-11-16T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -47.33, 
+                            "end": "2018-11-16T08:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2018-11-16T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 932.7769901454662, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2844, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2018-11-15T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-10-17T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-11-26T00:00:00.000000-08:00", 
+                "bill_total_cost": 0.08, 
+                "bill_total_kwh": 537.911475, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 537.911475, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 8.07, 
+                    "end": "2018-10-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.04009, 
+                    "start": "2018-10-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 201.290966
+                }, 
+                {
+                    "cost": 14.91, 
+                    "end": "2018-10-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Winter", 
+                    "rate": 0.05222, 
+                    "start": "2018-10-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 285.50042
+                }, 
+                {
+                    "cost": 4.05, 
+                    "end": "2018-10-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Winter", 
+                    "rate": 0.06413, 
+                    "start": "2018-10-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 63.125764
+                }, 
+                {
+                    "cost": -1.57, 
+                    "end": "2018-10-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.08339, 
+                    "start": "2018-10-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -18.838694
+                }, 
+                {
+                    "cost": 0.58, 
+                    "end": "2018-10-17T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.18947, 
+                    "start": "2018-10-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 3.06742
+                }, 
+                {
+                    "cost": 0.16, 
+                    "end": "2018-10-17T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-10-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -26.12, 
+                    "end": "2018-10-17T07:00:00.000000+00:00", 
+                    "name": "Charged to NEM Balance", 
+                    "rate": null, 
+                    "start": "2018-10-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 8.07, 
+                            "end": "2018-10-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.04009, 
+                            "start": "2018-10-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 207.02687561171007
+                        }, 
+                        {
+                            "cost": 15.37, 
+                            "end": "2018-10-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Winter", 
+                            "rate": 0.05222, 
+                            "start": "2018-10-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 285.56369875071823
+                        }, 
+                        {
+                            "cost": 3.89, 
+                            "end": "2018-10-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Winter", 
+                            "rate": 0.06413, 
+                            "start": "2018-10-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 60.96139969258804
+                        }, 
+                        {
+                            "cost": -1.61, 
+                            "end": "2018-10-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.08339, 
+                            "start": "2018-10-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -18.79035817859476
+                        }, 
+                        {
+                            "cost": 0.58, 
+                            "end": "2018-10-17T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.18947, 
+                            "start": "2018-10-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 3.007547565493472
+                        }, 
+                        {
+                            "cost": 0.16, 
+                            "end": "2018-10-17T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-10-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -27.13, 
+                            "end": "2018-10-17T07:00:00.000000+00:00", 
+                            "name": "Charged to NEM Balance", 
+                            "rate": null, 
+                            "start": "2018-10-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 554.2797949682358, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2840, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2018-10-16T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-09-17T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-10-23T00:00:00.000000-07:00", 
+                "bill_total_cost": -0.39, 
+                "bill_total_kwh": 52.159234, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 52.159234, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 6.97, 
+                    "end": "2018-09-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Off Peak - Summer", 
+                    "rate": 0.04009, 
+                    "start": "2018-09-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 173.867803
+                }, 
+                {
+                    "cost": -5.96, 
+                    "end": "2018-09-17T07:00:00.000000+00:00", 
+                    "name": "Generation - Part Peak - Summer", 
+                    "rate": 0.08339, 
+                    "start": "2018-09-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -71.52059
+                }, 
+                {
+                    "cost": -9.78, 
+                    "end": "2018-09-17T07:00:00.000000+00:00", 
+                    "name": "Generation - On Peak - Summer", 
+                    "rate": 0.18947, 
+                    "start": "2018-09-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -51.615077
+                }, 
+                {
+                    "cost": 0.02, 
+                    "end": "2018-09-17T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-09-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 8.36, 
+                    "end": "2018-09-17T07:00:00.000000+00:00", 
+                    "name": "Credited to NEM Balance", 
+                    "rate": null, 
+                    "start": "2018-09-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 7.17, 
+                            "end": "2018-09-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Off Peak - Summer", 
+                            "rate": 0.04009, 
+                            "start": "2018-09-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 177.60098578912957
+                        }, 
+                        {
+                            "cost": -5.99, 
+                            "end": "2018-09-17T07:00:00.000000+00:00", 
+                            "name": "Generation - Part Peak - Summer", 
+                            "rate": 0.08339, 
+                            "start": "2018-09-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -71.30272758993064
+                        }, 
+                        {
+                            "cost": -9.72, 
+                            "end": "2018-09-17T07:00:00.000000+00:00", 
+                            "name": "Generation - On Peak - Summer", 
+                            "rate": 0.18947, 
+                            "start": "2018-09-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -50.40355636728059
+                        }, 
+                        {
+                            "cost": 0.02, 
+                            "end": "2018-09-17T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-09-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 8.61, 
+                            "end": "2018-09-17T07:00:00.000000+00:00", 
+                            "name": "Credited to NEM Balance", 
+                            "rate": null, 
+                            "start": "2018-09-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 53.368741576297474, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2837, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2018-09-16T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-08-16T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-09-21T00:00:00.000000-07:00", 
+                "bill_total_cost": -0.27, 
+                "bill_total_kwh": 18.314181, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 18.314181, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 8.89, 
+                    "end": "2018-08-16T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK - SUMMER", 
+                    "rate": 0.04009, 
+                    "start": "2018-08-16T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 221.783511
+                }, 
+                {
+                    "cost": -7.32, 
+                    "end": "2018-08-16T07:00:00.000000+00:00", 
+                    "name": "GENERATION - PART PEAK - SUMMER", 
+                    "rate": 0.08339, 
+                    "start": "2018-08-16T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -87.79812
+                }, 
+                {
+                    "cost": -22.4, 
+                    "end": "2018-08-16T07:00:00.000000+00:00", 
+                    "name": "GENERATION - ON PEAK - SUMMER", 
+                    "rate": 0.18947, 
+                    "start": "2018-08-16T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -118.202903
+                }, 
+                {
+                    "cost": 0.01, 
+                    "end": "2018-08-16T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-08-16T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 20.55, 
+                    "end": "2018-08-16T07:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-08-16T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 8.93, 
+                            "end": "2018-08-16T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK - SUMMER", 
+                            "rate": 0.04009, 
+                            "start": "2018-08-16T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 216.92206529238004
+                        }, 
+                        {
+                            "cost": -7.29, 
+                            "end": "2018-08-16T07:00:00.000000+00:00", 
+                            "name": "GENERATION - PART PEAK - SUMMER", 
+                            "rate": 0.08339, 
+                            "start": "2018-08-16T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -87.73552180859707
+                        }, 
+                        {
+                            "cost": -21.65, 
+                            "end": "2018-08-16T07:00:00.000000+00:00", 
+                            "name": "GENERATION - ON PEAK - SUMMER", 
+                            "rate": 0.18947, 
+                            "start": "2018-08-16T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -116.05830595886589
+                        }, 
+                        {
+                            "cost": 0.01, 
+                            "end": "2018-08-16T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-08-16T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 20.8, 
+                            "end": "2018-08-16T07:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-08-16T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 18.20212817685897, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2833, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2018-08-15T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-07-17T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-08-22T00:00:00.000000-07:00", 
+                "bill_total_cost": -0.15, 
+                "bill_total_kwh": 36.117434, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 36.117434, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 8.31, 
+                    "end": "2018-07-17T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK - SUMMER", 
+                    "rate": 0.04009, 
+                    "start": "2018-07-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 207.267302
+                }, 
+                {
+                    "cost": -7.6, 
+                    "end": "2018-07-17T07:00:00.000000+00:00", 
+                    "name": "GENERATION - PART PEAK - SUMMER", 
+                    "rate": 0.08339, 
+                    "start": "2018-07-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -91.157083
+                }, 
+                {
+                    "cost": -16.42, 
+                    "end": "2018-07-17T07:00:00.000000+00:00", 
+                    "name": "GENERATION - ON PEAK - SUMMER", 
+                    "rate": 0.18947, 
+                    "start": "2018-07-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -86.686401
+                }, 
+                {
+                    "cost": 0.01, 
+                    "end": "2018-07-17T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-07-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 15.55, 
+                    "end": "2018-07-17T07:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-07-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 8.54, 
+                            "end": "2018-07-17T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK - SUMMER", 
+                            "rate": 0.04009, 
+                            "start": "2018-07-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 213.88395523014083
+                        }, 
+                        {
+                            "cost": -7.38, 
+                            "end": "2018-07-17T07:00:00.000000+00:00", 
+                            "name": "GENERATION - PART PEAK - SUMMER", 
+                            "rate": 0.08339, 
+                            "start": "2018-07-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -91.66922821149281
+                        }, 
+                        {
+                            "cost": -16.16, 
+                            "end": "2018-07-17T07:00:00.000000+00:00", 
+                            "name": "GENERATION - ON PEAK - SUMMER", 
+                            "rate": 0.18947, 
+                            "start": "2018-07-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -85.74264392828576
+                        }, 
+                        {
+                            "cost": 0.01, 
+                            "end": "2018-07-17T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-07-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 15.86, 
+                            "end": "2018-07-17T07:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-07-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 34.87860530155177, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2830, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2018-07-16T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-06-15T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-07-23T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.09, 
+                "bill_total_kwh": 14.424702, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 14.424702, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 8.67, 
+                    "end": "2018-06-15T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK - SUMMER", 
+                    "rate": 0.04009, 
+                    "start": "2018-06-15T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 216.29954
+                }, 
+                {
+                    "cost": -8.05, 
+                    "end": "2018-06-15T07:00:00.000000+00:00", 
+                    "name": "GENERATION - PART PEAK - SUMMER", 
+                    "rate": 0.08339, 
+                    "start": "2018-06-15T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -96.5936
+                }, 
+                {
+                    "cost": -20.66, 
+                    "end": "2018-06-15T07:00:00.000000+00:00", 
+                    "name": "GENERATION - ON PEAK - SUMMER", 
+                    "rate": 0.18947, 
+                    "start": "2018-06-15T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -109.022625
+                }, 
+                {
+                    "cost": 0.0, 
+                    "end": "2018-06-15T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-06-15T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 20.13, 
+                    "end": "2018-06-15T07:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-06-15T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 8.59, 
+                            "end": "2018-06-15T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK - SUMMER", 
+                            "rate": 0.04009, 
+                            "start": "2018-06-15T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 219.45160775943233
+                        }, 
+                        {
+                            "cost": -7.84, 
+                            "end": "2018-06-15T07:00:00.000000+00:00", 
+                            "name": "GENERATION - PART PEAK - SUMMER", 
+                            "rate": 0.08339, 
+                            "start": "2018-06-15T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -94.62091370651667
+                        }, 
+                        {
+                            "cost": -20.86, 
+                            "end": "2018-06-15T07:00:00.000000+00:00", 
+                            "name": "GENERATION - ON PEAK - SUMMER", 
+                            "rate": 0.18947, 
+                            "start": "2018-06-15T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -108.48915351840427
+                        }, 
+                        {
+                            "cost": 0.0, 
+                            "end": "2018-06-15T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-06-15T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 19.38, 
+                            "end": "2018-06-15T07:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-06-15T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 14.051215942033622, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2825, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2018-05-15T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-04-17T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-05-22T00:00:00.000000-07:00", 
+                "bill_total_cost": 0.08, 
+                "bill_total_kwh": 40.877143, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 40.877143, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 2.27, 
+                    "end": "2018-04-17T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK - SUMMER", 
+                    "rate": 0.04009, 
+                    "start": "2018-04-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 56.588395
+                }, 
+                {
+                    "cost": 5.93, 
+                    "end": "2018-04-17T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.05222, 
+                    "start": "2018-04-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 113.540425
+                }, 
+                {
+                    "cost": 1.88, 
+                    "end": "2018-04-17T07:00:00.000000+00:00", 
+                    "name": "GENERATION - PART PEAK -", 
+                    "rate": 0.06413, 
+                    "start": "2018-04-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 29.319196
+                }, 
+                {
+                    "cost": -5.53, 
+                    "end": "2018-04-17T07:00:00.000000+00:00", 
+                    "name": "GENERATION - PART PEAK - SUMMER", 
+                    "rate": 0.08339, 
+                    "start": "2018-04-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -66.318954
+                }, 
+                {
+                    "cost": -17.73, 
+                    "end": "2018-04-17T07:00:00.000000+00:00", 
+                    "name": "GENERATION - ON PEAK - SUMMER", 
+                    "rate": 0.18947, 
+                    "start": "2018-04-17T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": -93.590935
+                }, 
+                {
+                    "cost": 0.01, 
+                    "end": "2018-04-17T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-04-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 13.25, 
+                    "end": "2018-04-17T07:00:00.000000+00:00", 
+                    "name": "CREDITED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-04-17T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 2.3, 
+                            "end": "2018-04-17T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK - SUMMER", 
+                            "rate": 0.04009, 
+                            "start": "2018-04-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 55.912686345120534
+                        }, 
+                        {
+                            "cost": 5.89, 
+                            "end": "2018-04-17T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.05222, 
+                            "start": "2018-04-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 111.07023918257045
+                        }, 
+                        {
+                            "cost": 1.85, 
+                            "end": "2018-04-17T07:00:00.000000+00:00", 
+                            "name": "GENERATION - PART PEAK -", 
+                            "rate": 0.06413, 
+                            "start": "2018-04-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 28.641217111843847
+                        }, 
+                        {
+                            "cost": -5.71, 
+                            "end": "2018-04-17T07:00:00.000000+00:00", 
+                            "name": "GENERATION - PART PEAK - SUMMER", 
+                            "rate": 0.08339, 
+                            "start": "2018-04-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -66.73129260030314
+                        }, 
+                        {
+                            "cost": -17.68, 
+                            "end": "2018-04-17T07:00:00.000000+00:00", 
+                            "name": "GENERATION - ON PEAK - SUMMER", 
+                            "rate": 0.18947, 
+                            "start": "2018-04-17T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": -93.10459208958933
+                        }, 
+                        {
+                            "cost": 0.01, 
+                            "end": "2018-04-17T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-04-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": 12.89, 
+                            "end": "2018-04-17T07:00:00.000000+00:00", 
+                            "name": "CREDITED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-04-17T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 38.030873325150125, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2822, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2018-04-16T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-03-16T00:00:00.000000-07:00", 
+                "bill_statement_date": "2018-04-23T00:00:00.000000-07:00", 
+                "bill_total_cost": 225.47, 
+                "bill_total_kwh": 332.370989, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 332.370989, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 208.09, 
+                    "end": "2017-04-18T07:00:00.000000+00:00", 
+                    "name": "Total NEM Charges", 
+                    "rate": null, 
+                    "start": "2017-04-18T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 5.96, 
+                    "end": "2018-03-16T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.05222, 
+                    "start": "2018-03-16T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 114.09335
+                }, 
+                {
+                    "cost": 6.14, 
+                    "end": "2018-03-16T07:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.05301, 
+                    "start": "2018-03-16T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 115.904067
+                }, 
+                {
+                    "cost": 2.6, 
+                    "end": "2018-03-16T07:00:00.000000+00:00", 
+                    "name": "GENERATION - PART PEAK -", 
+                    "rate": 0.06413, 
+                    "start": "2018-03-16T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 40.495867
+                }, 
+                {
+                    "cost": 2.59, 
+                    "end": "2018-03-16T07:00:00.000000+00:00", 
+                    "name": "GENERATION - PART PEAK -", 
+                    "rate": 0.06444, 
+                    "start": "2018-03-16T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 40.240863
+                }, 
+                {
+                    "cost": 0.09, 
+                    "end": "2018-03-16T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-03-16T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 5.93, 
+                            "end": "2018-03-16T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.05222, 
+                            "start": "2018-03-16T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 114.75766960715423
+                        }, 
+                        {
+                            "cost": 6.03, 
+                            "end": "2018-03-16T07:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.05301, 
+                            "start": "2018-03-16T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 112.89791910462765
+                        }, 
+                        {
+                            "cost": 2.62, 
+                            "end": "2018-03-16T07:00:00.000000+00:00", 
+                            "name": "GENERATION - PART PEAK -", 
+                            "rate": 0.06413, 
+                            "start": "2018-03-16T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 40.36067994711805
+                        }, 
+                        {
+                            "cost": 2.65, 
+                            "end": "2018-03-16T07:00:00.000000+00:00", 
+                            "name": "GENERATION - PART PEAK -", 
+                            "rate": 0.06444, 
+                            "start": "2018-03-16T07:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 40.57015463591727
+                        }, 
+                        {
+                            "cost": 0.09, 
+                            "end": "2018-03-16T07:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-03-16T07:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 17.38, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 326.5994244537158, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2818, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2018-03-15T00:00:00.000000-07:00", 
+                "bill_start_date": "2018-02-14T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-03-22T00:00:00.000000-07:00", 
+                "bill_total_cost": 32.26, 
+                "bill_total_kwh": 608.641552, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 608.641552, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 26.65, 
+                    "end": "2018-02-14T08:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.05301, 
+                    "start": "2018-02-14T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 502.77983
+                }, 
+                {
+                    "cost": 5.43, 
+                    "end": "2018-02-14T08:00:00.000000+00:00", 
+                    "name": "GENERATION - PART PEAK -", 
+                    "rate": 0.06444, 
+                    "start": "2018-02-14T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 84.215298
+                }, 
+                {
+                    "cost": 0.18, 
+                    "end": "2018-02-14T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-02-14T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 25.95, 
+                            "end": "2018-02-14T08:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.05301, 
+                            "start": "2018-02-14T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 489.13754026506666
+                        }, 
+                        {
+                            "cost": 5.48, 
+                            "end": "2018-02-14T08:00:00.000000+00:00", 
+                            "name": "GENERATION - PART PEAK -", 
+                            "rate": 0.06444, 
+                            "start": "2018-02-14T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 83.06743513404818
+                        }, 
+                        {
+                            "cost": 0.17, 
+                            "end": "2018-02-14T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-02-14T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 33.88, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 619.1923878787558, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2813, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2018-02-13T00:00:00.000000-08:00", 
+                "bill_start_date": "2018-01-16T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-02-21T00:00:00.000000-08:00", 
+                "bill_total_cost": 8.94, 
+                "bill_total_kwh": 638.349819, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 638.349819, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 26.34, 
+                    "end": "2018-01-16T08:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.05301, 
+                    "start": "2018-01-16T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 496.885172
+                }, 
+                {
+                    "cost": 6.69, 
+                    "end": "2018-01-16T08:00:00.000000+00:00", 
+                    "name": "GENERATION - PART PEAK -", 
+                    "rate": 0.06444, 
+                    "start": "2018-01-16T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 103.878941
+                }, 
+                {
+                    "cost": 0.17, 
+                    "end": "2018-01-16T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2018-01-16T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -24.26, 
+                    "end": "2018-01-16T08:00:00.000000+00:00", 
+                    "name": "CHARGED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2018-01-16T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 27.01, 
+                            "end": "2018-01-16T08:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.05301, 
+                            "start": "2018-01-16T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 503.66734134033715
+                        }, 
+                        {
+                            "cost": 6.64, 
+                            "end": "2018-01-16T08:00:00.000000+00:00", 
+                            "name": "GENERATION - PART PEAK -", 
+                            "rate": 0.06444, 
+                            "start": "2018-01-16T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 102.63326924927227
+                        }, 
+                        {
+                            "cost": 0.17, 
+                            "end": "2018-01-16T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2018-01-16T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -24.0, 
+                            "end": "2018-01-16T08:00:00.000000+00:00", 
+                            "name": "CHARGED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2018-01-16T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 10.5, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 644.2706771770136, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2810, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2018-01-15T00:00:00.000000-08:00", 
+                "bill_start_date": "2017-12-15T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-01-25T00:00:00.000000-08:00", 
+                "bill_total_cost": 0.11, 
+                "bill_total_kwh": 781.708885, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 781.708885, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 35.61, 
+                    "end": "2017-12-15T08:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.05301, 
+                    "start": "2017-12-15T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 671.74737
+                }, 
+                {
+                    "cost": 6.62, 
+                    "end": "2017-12-15T08:00:00.000000+00:00", 
+                    "name": "GENERATION - PART PEAK -", 
+                    "rate": 0.06444, 
+                    "start": "2017-12-15T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 102.733359
+                }, 
+                {
+                    "cost": 0.21, 
+                    "end": "2017-12-15T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2017-12-15T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -42.33, 
+                    "end": "2017-12-15T08:00:00.000000+00:00", 
+                    "name": "CHARGED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2017-12-15T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 34.45, 
+                            "end": "2017-12-15T08:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.05301, 
+                            "start": "2017-12-15T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 662.8675056252486
+                        }, 
+                        {
+                            "cost": 6.68, 
+                            "end": "2017-12-15T08:00:00.000000+00:00", 
+                            "name": "GENERATION - PART PEAK -", 
+                            "rate": 0.06444, 
+                            "start": "2017-12-15T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 103.68615280069167
+                        }, 
+                        {
+                            "cost": 0.21, 
+                            "end": "2017-12-15T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2017-12-15T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -41.65, 
+                            "end": "2017-12-15T08:00:00.000000+00:00", 
+                            "name": "CHARGED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2017-12-15T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 750.7462764976792, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2805, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }, 
+        {
+            "authorization_uid": 775, 
+            "base": {
+                "bill_end_date": "2017-12-14T00:00:00.000000-08:00", 
+                "bill_start_date": "2017-11-15T00:00:00.000000-08:00", 
+                "bill_statement_date": "2018-01-25T00:00:00.000000-08:00", 
+                "bill_total_cost": -0.32, 
+                "bill_total_kwh": 551.738956, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 551.738956, 
+                "billing_account": "2000000923", 
+                "billing_address": "923 Main St, Anytown, CA 12345", 
+                "billing_contact": "Anonymous User", 
+                "meter_numbers": [
+                    "3000000923"
+                ], 
+                "service_address": "923 #100 Main St, Anytown, CA 12345", 
+                "service_identifier": "1000000923", 
+                "service_tariff": "E6 X Residential Time-of-Use Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "suppliers"
+            ], 
+            "created": "2020-01-29T00:00:00.000000+00:00", 
+            "line_items": [
+                {
+                    "cost": 22.83, 
+                    "end": "2017-11-15T08:00:00.000000+00:00", 
+                    "name": "GENERATION - OFF PEAK -", 
+                    "rate": 0.05301, 
+                    "start": "2017-11-15T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 430.738132
+                }, 
+                {
+                    "cost": 5.65, 
+                    "end": "2017-11-15T08:00:00.000000+00:00", 
+                    "name": "GENERATION - PART PEAK -", 
+                    "rate": 0.06444, 
+                    "start": "2017-11-15T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 87.651677
+                }, 
+                {
+                    "cost": 0.16, 
+                    "end": "2017-11-15T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Surcharge", 
+                    "rate": null, 
+                    "start": "2017-11-15T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": -28.96, 
+                    "end": "2017-11-15T08:00:00.000000+00:00", 
+                    "name": "CHARGED TO NEM BALANCE", 
+                    "rate": null, 
+                    "start": "2017-11-15T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "923", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": null, 
+                    "type": "pdf"
+                }
+            ], 
+            "suppliers": [
+                {
+                    "supplier_line_items": [
+                        {
+                            "cost": 23.33, 
+                            "end": "2017-11-15T08:00:00.000000+00:00", 
+                            "name": "GENERATION - OFF PEAK -", 
+                            "rate": 0.05301, 
+                            "start": "2017-11-15T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 445.416032030901
+                        }, 
+                        {
+                            "cost": 5.68, 
+                            "end": "2017-11-15T08:00:00.000000+00:00", 
+                            "name": "GENERATION - PART PEAK -", 
+                            "rate": 0.06444, 
+                            "start": "2017-11-15T08:00:00.000000+00:00", 
+                            "unit": "kwh", 
+                            "volume": 85.42071110708716
+                        }, 
+                        {
+                            "cost": 0.15, 
+                            "end": "2017-11-15T08:00:00.000000+00:00", 
+                            "name": "Energy Commission Surcharge", 
+                            "rate": null, 
+                            "start": "2017-11-15T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }, 
+                        {
+                            "cost": -28.76, 
+                            "end": "2017-11-15T08:00:00.000000+00:00", 
+                            "name": "CHARGED TO NEM BALANCE", 
+                            "rate": null, 
+                            "start": "2017-11-15T08:00:00.000000+00:00", 
+                            "unit": null, 
+                            "volume": null
+                        }
+                    ], 
+                    "supplier_name": "Silicon Valley Clean Energy", 
+                    "supplier_service_id": "4000000923", 
+                    "supplier_tariff": "NEM E-6", 
+                    "supplier_total_cost": 0.0, 
+                    "supplier_total_unit": "kwh", 
+                    "supplier_total_volume": 535.2820758554755, 
+                    "supplier_type": "cca"
+                }
+            ], 
+            "uid": 2804, 
+            "updated": "2020-01-29T00:00:00.000000+00:00", 
+            "utility": "SVCE"
+        }
+    ], 
+    "next": null
+}
