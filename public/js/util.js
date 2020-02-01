@@ -167,26 +167,30 @@ function newDateString(days) {
   return moment().add(days, 'd').format();
 }
 
-window.fetchResource = function(meterUid, resource) {
-  return $.ajax({
+function fetchResource(meterUid, resource) {
+  return JSON.parse($.ajax({
     type: "GET",
     url: `/mock/api_data/${meterUid}/${resource}.json`,
     async: false
-  }).responseText;
+  }).responseText);
 }
 
 function fetchBills(meterUid) {
-  return fetchResource(meterUid, "bills")
+  return fetchResource(meterUid, "bills");
 }
 
-function fetchIntervals(meterUid) {
-  return fetchResource(meterUid, "intervals")
+function fetchIntervals(meterUid, len = 200) {
+  let r = fetchResource(meterUid, "intervals");
+  let readings = _.flatten(_.map(r.intervals, 'readings')).slice(-len, -1);
+  let dt = _.map(readings, 'end');
+  let kwhs = _.map(readings, 'kwh');
+  return _.zipWith(dt, kwhs, function(a, b) {return {x: a, y: b}});
 }
 
 function fetchAccount(meterUid) {
-  return fetchResource(meterUid, "account")
+  return fetchResource(meterUid, "account");
 }
 
 function fetchMeters(meterUid) {
-  return fetchResource(meterUid, "meters")
+  return fetchResource(meterUid, "meters");
 }
