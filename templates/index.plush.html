@@ -125,7 +125,6 @@
                 </span>
               </li>
             </ul>
-            
           </div>
           <div class="mt-4 text-center small">
             <span class="mr-2">
@@ -228,6 +227,10 @@ new Vue({
     ]
   },
   mounted: function () {
+    if (this.meterUid === null) {
+      window.location.href="/?meterUid=920";
+      return
+    }
     this.reload();
   },
   computed: {
