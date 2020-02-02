@@ -27,6 +27,12 @@ function number_format(number, decimals, dec_point, thousands_sep) {
   return s.join(dec);
 }
 
+window.getParam = function(param) {
+  var urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+
+
 window.chartColors = {
 	red: 'rgb(255, 99, 132)',
 	orange: 'rgb(255, 159, 64)',
@@ -167,12 +173,16 @@ function newDateString(days) {
   return moment().add(days, 'd').format();
 }
 
-function fetchResource(meterUid, resource) {
+window.fetchResource = function(meterUid, resource) {
   return JSON.parse($.ajax({
     type: "GET",
     url: `/mock/api_data/${meterUid}/${resource}.json`,
     async: false
   }).responseText);
+}
+
+function fetchLastBilling(meterUid) {
+  return fetchBills(meterUid).bills.slice(-1)[0]
 }
 
 function fetchBills(meterUid) {

@@ -1,4 +1,4 @@
-<div id="account-vue" class="container-fluid">
+<div id="app" class="container-fluid">
   <!-- Page Heading -->
   <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800">Meter Report</h1>
@@ -34,7 +34,7 @@
           <div class="row no-gutters align-items-center">
             <div class="col mr-2">
               <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Last Billing</div>
-              <div class="h5 mb-0 font-weight-bold text-gray-800">${{ this.billing }}</div>
+              <div class="h5 mb-0 font-weight-bold text-gray-800">${{ this.bill_total_cost }}</div>
             </div>
             <div class="col-auto">
               <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -100,7 +100,7 @@
       <div class="card shadow mb-4">
         <!-- Card Header - Dropdown -->
         <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-          <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+          <h6 class="m-0 font-weight-bold text-primary">Realtime Feed</h6>
           <div class="dropdown no-arrow">
             <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
@@ -117,40 +117,138 @@
 
         <!-- Card Body -->
         <div class="card-body">
+          <div class="small">
+            <ul class="list-group">
+              <li class="list-group-item" v-for="(item, index) in intervals">
+                <span>
+                  <i class="fas fa-circle text-success"></i> {{ item.x  }}
+                </span>
+              </li>
+            </ul>
+            
+          </div>
           <div class="mt-4 text-center small">
             <span class="mr-2">
-              <i class="fas fa-circle text-primary"></i> Direct
+              <i class="fas fa-circle text-success"></i> Info
             </span>
             <span class="mr-2">
-              <i class="fas fa-circle text-success"></i> Social
+              <i class="fas fa-circle text-warning"></i> Warning
             </span>
             <span class="mr-2">
-              <i class="fas fa-circle text-info"></i> Referral
+              <i class="fas fa-circle text-danger"></i> Alerts
             </span>
           </div>
         </div>
       </div>
+      <div class="card shadow mb-4">
+        <!-- Card Header - Dropdown -->
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+          <h6 class="m-0 font-weight-bold text-primary">Meter Account</h6>
+          <div class="dropdown no-arrow">
+            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+              <div class="dropdown-header">Dropdown Header:</div>
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Body -->
+        <div class="card-body">
+          <div class="small">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" v-for="(value, name) in account">
+                <div class="row">
+                  <div class="col-xl-7 col-lg-7">
+                    {{ name }}:
+                  </div>
+                  <div class="col-xl-5 col-lg-5">
+                    {{ value }}
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
 
 <script>
+
 new Vue({
-  el: '#account-vue',
+  el: '#app',
+  methods: {
+    reload: function () {
+      var ctx = document.getElementById('canvas').getContext('2d');
+      new Chart(ctx, this.config);
+    }
+  },
+  watch: {
+    meterUid: function() {this.reload();}
+  },
   data: {
-    meterUid: 920,
-    billing: 382.82,
-    meterNumber: 3000000936,
-    watchStatus: '90'
+    meterUid: window.getParam('meterUid'),
+    alertRules: [
+      {
+        name: 'kWh',
+        condition: '>=',
+        value: 3.0,
+        duration: '30 min',
+        notification: 'sms: 555-666-7777'
+      },
+      {
+        name: 'kWh',
+        condition: '>=',
+        value: 4.0,
+        duration: '30 min',
+        notification: 'phone: 555-666-7777'
+      },
+      {
+        name: 'kWh',
+        condition: '<=',
+        value: 0.0,
+        duration: '50 min',
+        notification: 'email: foobar@example.com'
+      },
+      {
+        name: 'kWh',
+        condition: 'is',
+        value: 'abnormal',
+        duration: '50 min',
+        notification: 'email: foobar@example.com'
+      },
+    ]
   },
   mounted: function () {
-  }
-});
-
-
-new Vue({
-  el: '#chart-vue',
+    this.reload();
+  },
   computed: {
+    lastBilling: function () {
+      return fetchLastBilling(this.meterUid);
+    },
+    bill_total_cost: function () {
+      return this.lastBilling.base.bill_total_cost;
+    },
+    meterNumber: function () {
+      return this.lastBilling.base.meter_numbers[0];
+    },
+    account: function () {
+      return fetchAccount(this.meterUid);
+    },
+    watchStatus: function () {
+      return '90';
+    },
+    intervals: function () {
+      return fetchIntervals(this.meterUid).reverse().slice(-5, -1);
+    },
     config: function () {
       return {
         type: 'line',
@@ -191,24 +289,7 @@ new Vue({
         }
       }
     }
-  },
-  methods: {
-    reload: function () {
-      var ctx = document.getElementById('canvas').getContext('2d');
-      new Chart(ctx, this.config);
-    }
-  },
-  watch: {
-    meterUid: function() {this.reload();}
-  },
-  data: {
-    meterUid: 920,
-    color: Chart.helpers.color,
-  },
-  mounted: function () {
-    this.reload();
   }
-})
-
+});
 
 </script>
