@@ -11,4 +11,3 @@ func ReportsShow(c buffalo.Context) error {
 func ReportsIndex(c buffalo.Context) error {
 	return c.Render(200, r.HTML("reports/index.html"))
 }
-

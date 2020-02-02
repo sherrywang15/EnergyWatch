@@ -6,6 +6,7 @@ require (
 	github.com/cockroachdb/cockroach-go v0.0.0-20190925194419-606b3d062051 // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/gobuffalo/buffalo v0.14.11
+	github.com/gobuffalo/buffalo-heroku v1.0.9 // indirect
 	github.com/gobuffalo/buffalo-pop v1.23.1
 	github.com/gobuffalo/envy v1.9.0
 	github.com/gobuffalo/genny v0.6.0 // indirect

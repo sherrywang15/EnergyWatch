@@ -7,4 +7,3 @@ func (as *ActionSuite) Test_Reports_Show() {
 func (as *ActionSuite) Test_Reports_Index() {
 	as.Fail("Not Implemented!")
 }
-
